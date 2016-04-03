@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<dl>
+    <dt class="participantOne">Participant One</dt>
+    <dd class="participantOne">This is something from the first particpant.</dd>
+
+    <dt class="participantTwo">Participant Two</dt>
+    <dd class="participantTwo">Lorem ipsum</dd>
+    <dd class="participantTwo">dolor sit amet. And so forth.</dd>
+
+    <dt class="participantThree">Participant Three</dt>
+    <dd class="participantThree">Something or other</dd>
+
+    <dt class="participantOne">Participant One</dt>
+    <dd class="participantOne">Yadda yadda.</dd>
+
+    <dt class="participantThree">Participant Three</dt>
+    <dd class="participantThree">Blah? With other text...</dd>
+</dl>
+</div>
+
+
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.works').on('click', function(){
+            $('.aboutWorks').show().siblings('div').hide();
+            $('.works').html('<span>See my skills</span><i class="icon-briefcase"></i>').removeClass().addClass('skills');
+        });
+        $('.skills').on('click', function(){
+            $('aboutWorks').hide().siblings('div').show();
+            $('.skills').html('<span>See my works</span><i class="icon-briefcase"></i>').removeClass().addClass('works');
+        });
+    });
+</script>
+</body>
+</html>

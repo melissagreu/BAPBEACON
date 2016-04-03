@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Prototype</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
+
+
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js'></script>
+    <script src='slidetounlock.js'></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--PAGE 1-->
+    <div data-role="page" id="page1">
+
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                       <h3>Allô ? Y’a quelqu’un ? Vous me recevez ? Répondez s’il vous plaît…</h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <div data-role="footer" data-position="fixed" class="footer_dialogue">
+
+
+                <div class="container">
+                    <div class="row">
+                        <a href="#page2a" class="left col-xs-5">
+                                Oui je vous reçois. Que ce passe-t-il ?
+                        </a>
+
+                        <a href="#page2b" class="right col-xs-5 col-xs-offset-1">
+                            <p>Quoi ? Qui êtes-vous ?</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--PAGE 2A-->
+    <div data-role="page" id="page2a">
+
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <h3>Ah, Bonjour. Je m’appelle Jayce, détective privé. Et j’aurais besoin de votre aide. Vous vous situez bien à la Défense ?</h3>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer" data-position="fixed" class="footer_dialogue">
+
+                <div class="container">
+                    <div class="row">
+                        <a href="#page3a" class="left col-xs-5">
+                            <p>Oui je suis à la Défense,<br> que se passe-t-il ?</p>
+                        </a>
+
+                        <a href="#page3b" class="right col-xs-5 col-xs-offset-1 ">
+                            <p>Oui  je suis à la Défense…<br> mais pourquoi moi ?</p>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--PAGE 2B-->
+    <div data-role="page" id="page2b">
+
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <h3>Je me présente : Jayce, détective privé. J’ai été kidnappé et j’aurai besoin d’aide. Vous vous trouvez bien à la Défense ?
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div data-role="footer" data-position="fixed" class="footer_dialogue">
+
+                <div class="container">
+                    <div class="row">
+                        <a href="#page3a" class="left col-xs-5 ">
+                            <p>Oui je suis à la Défense,<br> que se passe-t-il ?</p>
+                            <!--</div>-->
+                        </a>
+
+                        <a href="#page3b" class="right col-xs-5 col-xs-offset-1">
+                            <p>Oui  je suis à la Défense…<br> mais pourquoi moi ?</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--PAGE 3A-->
+    <div data-role="page" id="page3a">
+
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <h3>J’ai été kidnappée et j’ai besoin de votre aide. Vous êtes la seule personne que j’ai réussie à contacter depuis mon enlèvement.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div data-role="footer" data-position="fixed" class="footer_dialogue">
+                <div class="container">
+                    <div class="row">
+                        <a href="#page4" class="left col-xs-12">
+                            <p>Vous avez été kidnappé ?<br> Mais par qui ?<br> Et pourquoi ?</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--PAGE 3B-->
+    <div data-role="page" id="page3b">
+
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <h3>Je suis dans situation critique. Vous êtes la seule personne que j’ai réussi à contacter depuis mon enlèvement.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div data-role="footer" data-position="fixed" class="footer_dialogue">
+
+                <div class="container">
+                    <div class="row">
+                        <a href="#page4" class="left col-xs-12">
+                            <p>Vous avez été kidnappé ?<br> Mais par qui ?<br> Et pourquoi ?</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="page4">
+
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <h3>Je ne sais pas. <i>:::: [signal lost]:::</i>   rendez-vous à  l’arche pour <i>[signal lost]</i></h3>
+                    </div>
+                <div class="row">
+                    <div class="text-center">
+                        <small>Rendez-vous à l'arche</small>
+                    </div>
+                </div>
+            </div>
+
+            <div data-role="footer" data-position="fixed" class="footer_dialogue">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

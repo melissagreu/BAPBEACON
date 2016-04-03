@@ -1,0 +1,29 @@
+.footer_dialogue{
+      height:  100px!important;
+}
+
+
+a{
+    text-align: center;
+    height:  100px!important;
+    background: #aaaaaa !important;
+    text-shadow: none !important;
+    color:white !important;
+    text-decoration: none !important;
+
+}
+
+.gifss{
+    background :url(gifss.gif) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.groslien{
+    width:600px;
+    height:600px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
