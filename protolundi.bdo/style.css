@@ -1,28 +1,68 @@
-.footer_dialogue{
-      height:  100px!important;
+#page1,
+#page2a,
+#page2b,
+#page3a,
+#page3b,
+#page4 {
+    background: url(bg1.png) no-repeat center;
+    background-size: cover;
+    color: #ecf0f1;
+    font-family: 'Abel', 'sans-serif';
 }
 
+div.dialogue {
+    padding-top: 100px;
+    height: 50vh;
+}
 
-a{
+.choice {
+    background-color: #3a3a3a!important;
+    text-decoration: none!important;
     text-align: center;
-    height:  100px!important;
+    color: white!important;
+    height: 90px!important;
+    text-shadow: none!important;
+    width: 100px;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
+
+.footer {
+    background: url(darkpattern.png) no-repeat center!important;
+    background-size: cover!important;
+    height: 100px;
+}
+
+a {
+    text-align: center;
+    height: 100px!important;
     background: #aaaaaa !important;
     text-shadow: none !important;
-    color:white !important;
+    color: white !important;
     text-decoration: none !important;
-
 }
 
-.gifss{
-    background :url(gifss.gif) no-repeat center center;
+small{
+    text-shadow: none !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.gifss {
+    background: url(gifss.gif) no-repeat center center;
     background-size: cover;
     height: 100vh;
-
 }
 
-.groslien{
-    width:600px;
-    height:600px;
+.groslien {
+    width: 600px;
+    height: 600px;
     text-align: center;
     color: #fff;
     text-decoration: none;

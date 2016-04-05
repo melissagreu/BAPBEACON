@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>Prototype</title>
@@ -8,7 +9,7 @@
 
     <link href='https://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
 
-
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
@@ -26,95 +27,120 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
     <!--PAGE 1-->
     <div data-role="page" id="page1">
-
         <div data-role="main" class="ui-content">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center">
-                       <h3>Allô ? Y’a quelqu’un ? Vous me recevez ? Répondez s’il vous plaît…</h3>
-                    </div>
-                </div>
+            <div class="text-center dialogue">
+                <h3>
+                    <span id="text1">Allô...? </span>
+                    <br>
+                    <span id="text2">Y’a quelqu’un ? </span>
+                    <br>
+                    <span id="text3">Vous me recevez ? </span>
+                </h3>
             </div>
-
-
-            <div data-role="footer" data-position="fixed" class="footer_dialogue">
-
-
+        </div>
+        <div data-role="footer" data-position="fixed" class="footer">
+            <div class="answers">
                 <div class="container">
                     <div class="row">
-                        <a href="#page2a" class="left col-xs-5">
-                                Oui je vous reçois. Que ce passe-t-il ?
-                        </a>
-
-                        <a href="#page2b" class="right col-xs-5 col-xs-offset-1">
-                            <p>Quoi ? Qui êtes-vous ?</p>
-                        </a>
+                        <div class="col-xs-6">
+                            <a href="#page2a" data-transition="slide">
+                                <button class="choice">
+                                    Oui je vous reçois.
+                                    <br>Que se passe-t-il ?
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#page2b" data-transition="slide">
+                                <button class="choice">
+                                    Quoi ? Qui êtes-vous ?
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
     <!--PAGE 2A-->
     <div data-role="page" id="page2a">
-
         <div data-role="main" class="ui-content">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center">
-                        <h3>Ah, Bonjour. Je m’appelle Jayce, détective privé. Et j’aurais besoin de votre aide. Vous vous situez bien à la Défense ?</h3>
-                    </div>
-                </div>
+            <div class="text-center dialogue">
+                <h3>
+                    Ah, bonjour. Je m’appelle Jayce, détective privé.
+                    <br>
+                    Et j’aurais besoin de votre aide. Vous vous situez bien à la Défense ?
+                </h3>
             </div>
-            <div data-role="footer" data-position="fixed" class="footer_dialogue">
-
+        </div>
+        <div data-role="footer" data-position="fixed" class="footer">
+            <div class="answers">
                 <div class="container">
                     <div class="row">
-                        <a href="#page3a" class="left col-xs-5">
-                            <p>Oui je suis à la Défense,<br> que se passe-t-il ?</p>
-                        </a>
-
-                        <a href="#page3b" class="right col-xs-5 col-xs-offset-1 ">
-                            <p>Oui  je suis à la Défense…<br> mais pourquoi moi ?</p>
-                        </a>
-
+                        <div class="col-xs-6">
+                            <a href="#page3a" data-transition="slide">
+                                <button class="choice">
+                                    Oui je suis à la Défense,
+                                    <br> que se passe-t-il ??
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#page3b" data-transition="slide">
+                                <button class="choice">
+                                    Je suis à la Défense…
+                                    <br> mais pourquoi moi ?
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
     <!--PAGE 2B-->
     <div data-role="page" id="page2b">
-
         <div data-role="main" class="ui-content">
             <div class="container">
                 <div class="row">
                     <div class="text-center">
-                        <h3>Je me présente : Jayce, détective privé. J’ai été kidnappé et j’aurai besoin d’aide. Vous vous trouvez bien à la Défense ?
+                        <h3>
+                            Je me présente : Jayce, détective privé.
+                            <br>
+                            J’ai été kidnappé et j’aurai besoin d’aide. Vous vous trouvez bien à la Défense ?
                         </h3>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div data-role="footer" data-position="fixed" class="footer_dialogue">
-
+        <div data-role="footer" data-position="fixed" class="footer">
+            <div class="answers">
                 <div class="container">
                     <div class="row">
-                        <a href="#page3a" class="left col-xs-5 ">
-                            <p>Oui je suis à la Défense,<br> que se passe-t-il ?</p>
-                            <!--</div>-->
-                        </a>
-
-                        <a href="#page3b" class="right col-xs-5 col-xs-offset-1">
-                            <p>Oui  je suis à la Défense…<br> mais pourquoi moi ?</p>
-                        </a>
+                        <div class="col-xs-6">
+                            <a href="#page3a" data-transition="slide">
+                                <button class="choice">
+                                    Oui je suis à la Défense,
+                                    <br> que se passe-t-il ?
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#page3b" data-transition="slide">
+                                <button class="choice">
+                                    Je suis à la Défense…
+                                    <br> mais pourquoi moi ?
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -123,32 +149,40 @@
 
     <!--PAGE 3A-->
     <div data-role="page" id="page3a">
-
         <div data-role="main" class="ui-content">
             <div class="container">
                 <div class="row">
                     <div class="text-center">
-                        <h3>J’ai été kidnappée et j’ai besoin de votre aide. Vous êtes la seule personne que j’ai réussie à contacter depuis mon enlèvement.</h3>
+                        <h3>
+                            J’ai été kidnappée et j’ai besoin de votre aide.
+                            <br>
+                            Vous êtes la seule personne que j’ai réussie à contacter depuis mon enlèvement.
+                        </h3>
                     </div>
                 </div>
             </div>
-
-            <div data-role="footer" data-position="fixed" class="footer_dialogue">
+        </div>
+        <div data-role="footer" data-position="fixed" class="footer">
+            <div class="answers">
                 <div class="container">
                     <div class="row">
-                        <a href="#page4" class="left col-xs-12">
-                            <p>Vous avez été kidnappé ?<br> Mais par qui ?<br> Et pourquoi ?</p>
-                        </a>
+                        <div class="col-xs-12 text-center">
+                            <a href="#page4" data-transition="slide">
+                                <button class="choice">
+                                    Vous avez été kidnappé ?
+                                    <br> Mais par qui ?
+                                    <br> Et pourquoi ?
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
     <!--PAGE 3B-->
     <div data-role="page" id="page3b">
-
         <div data-role="main" class="ui-content">
             <div class="container">
                 <div class="row">
@@ -157,42 +191,57 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div data-role="footer" data-position="fixed" class="footer_dialogue">
-
+        <div data-role="footer" data-position="fixed" class="footer">
+            <div class="answers">
                 <div class="container">
                     <div class="row">
-                        <a href="#page4" class="left col-xs-12">
-                            <p>Vous avez été kidnappé ?<br> Mais par qui ?<br> Et pourquoi ?</p>
-                        </a>
+                        <div class="col-xs-12 text-center">
+                            <a href="#page4" data-transition="slide">
+                                <button class="choice">
+                                    Vous avez été kidnappé ?
+                                    <br> Mais par qui ?
+                                    <br> Et pourquoi ?
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
-
+    <!--PAGE 4-->
     <div data-role="page" id="page4">
-
         <div data-role="main" class="ui-content">
-            <div class="container">
-                <div class="row">
-                    <div class="text-center">
-                        <h3>Je ne sais pas. <i>:::: [signal lost]:::</i>   rendez-vous à  l’arche pour <i>[signal lost]</i></h3>
-                    </div>
-                <div class="row">
-                    <div class="text-center">
-                        <small>Rendez-vous à l'arche</small>
-                    </div>
+            <div class="text-center dialogue">
+                <h3>
+                   C'est...
+                   <br>
+                   <br>
+                   <i>:::: [signal lost]:::</i>
+                   <br>
+                   <br>
+                   rendez-vous à  l’arche pour....<i>
+                   <br>
+                   <br>
+                   [signal lost]</i>
+                </h3>
+               
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed" class="footer">
+             <div class="text-center">
+                    <small>Rendez-vous à l'arche</small>
                 </div>
-            </div>
-
-            <div data-role="footer" data-position="fixed" class="footer_dialogue">
-            </div>
         </div>
     </div>
 
-
+    <script>
+        $("#text1").fadeIn("slow").fadeOut(5000);
+        $("#text2").fadeIn();
+        $("#text3").fadeIn(5000);
+    </script>
 </body>
 </html>
