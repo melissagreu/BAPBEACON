@@ -27,9 +27,9 @@
 				<header type="carousel" height="180" pagingDots="0">
 				</header>
 		<rightButton>
-			<title><![CDATA[]]></title>
+			<title><![CDATA[jkbkjv]]></title>
 			<image><![CDATA[]]></image>
-			<link type="nothing"><![CDATA[]]></link>
+			<link type="pageID"><![CDATA[Page 2]]></link>
 		</rightButton>
 
 			</page>
@@ -45,7 +45,7 @@
 
 				<contentSource><![CDATA[file]]></contentSource>
 
-				<contentTemplate><![CDATA[gifss.html]]></contentTemplate>
+				<contentTemplate><![CDATA[enigme1.html]]></contentTemplate>
 
 				<header type="carousel" height="180" pagingDots="0">
 				</header>
