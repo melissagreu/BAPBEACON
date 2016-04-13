@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="patternLock.css">
-    
+
 
     <!--FONT-->
     <link href='https://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
@@ -32,55 +32,281 @@
 </head>
 
 <body>
-<div data-role="page" id="page21">
-    <div data-role="main" class="ui-content">
-        <!--PRELOADER-->
-        <div id="preloader">
-            <div id="status">
+
+    <!--PAGE 22 : GIF + PATTERN-->
+    <div data-role="page" id="page21">
+        <div data-role="main" class="ui-content">
+            <!--PRELOADER-->
+            <div id="preloader">
+                <div id="status">
+                </div>
+            </div>
+            <!--PATTERN-->
+            <div class="mhn-ui-wrap">
+                <div class="mhn-ui-page page-lock">
+                    <div class="mhn-lock-wrap">
+                        <div class="mhn-lock-title" data-title="Dessine ce que tu vois"></div>
+                        <div class="mhn-lock"></div>
+                    </div>
+                </div>
+
+                <div class="mhn-ui-page page-home">
+                    <!--APRES LE DEVEROUILLAGE-->
+                    <div class="text-center dialogue">
+                        <h3>
+                           Bien joué !
+                            <br>
+                            Je te reçois mieux.
+                            <br>
+                           <a href="#page22" data>
+                               <button>
+                                    super   
+                               </button>
+                           </a>
+                        </h3>
+                    </div>
+                </div>
+                    <!--<div data-role="footer" data-position="fixed" class="footer mhn-ui-footer">
+
+                        <div class="answers">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-6">
+                                        <a href="#" data-transition="slide">
+                                            <button class="choice">
+                                                Vous allez me dire
+                                                <br> qui vous êtes ?
+                                            </button>
+                                        </a>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <a href="#" data-transition="slide">
+                                            <button class="choice">
+                                                Qu’est-ce que c’est
+                                                <br> que cette histoire ?
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                
             </div>
         </div>
-        <!--PATTERN-->
-        <div class="mhn-ui-wrap">
-    <div class="mhn-ui-page page-lock">
-        <div class="mhn-lock-wrap">
-            <div class="mhn-lock-title" data-title="Dessiner un 'M' pour dévérouiller"></div>
-            <div class="mhn-lock"></div>
+    </div>
+
+    <!--PAGE 22-->
+   <div data-role="page" id="page22">
+        <div data-role="main" class="ui-content">
+            <div class="text-center dialogue">
+                <h3>
+                    Il semblerait que ceux qui m’ont enlevé 
+                    <br>
+                    ne veulent pas qu’on me retrouve.
+                </h3>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed" class="footer">
+            <div class="answers">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <a href="#page22a" data-transition="slideup">
+                                <button class="choice">
+                                    Vous allez me 
+                                    <br>
+                                    dire qui vous êtes ?
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#page22b" data-transition="slideup">
+                                <button class="choice">
+                                   Qu’est-ce que c’est 
+                                   <br>
+                                   que cette histoire ? 
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="mhn-ui-page page-home">
-     <!--APRES LE DEVEROUILLAGE--> 
-     <div class="text-center">
-         <h3>Bravo, tu as réussi</h3>
-     </div>
+        <!--PAGE 22a-->
+   <div data-role="page" id="page22a">
+        <div data-role="main" class="ui-content">
+            <div class="text-center dialogue">
+                <h3>
+                    Je suis détective privée 
+                    <br>
+                    mais surtout une hackeuse professionnelle…
+                </h3>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed" class="footer">
+            <div class="answers">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <a href="#page23" data-transition="slideup">
+                                <button class="choice">
+                                    Hackeuse ? 
+                                    <br>
+                                    Quelqu’un a peur 
+                                    <br>
+                                    de vos capacités donc. 
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#page23" data-transition="slideup">
+                                <button class="choice">
+                                  Comment êtes-vous rentré 
+                                  <br>
+                                  dans mon téléphone ?  
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="mhn-ui-page page-author">
+
+    <!--PAGE 22b-->
+   <div data-role="page" id="page22b">
+        <div data-role="main" class="ui-content">
+            <div class="text-center dialogue">
+                <h3>
+                    J’étais en train d'enquêter sur un organisme 
+                    <br>
+                    qui se fait appeler “la société” 
+                    <br>
+                    lorsqu’ils m’ont retrouvé.
+                </h3>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed" class="footer">
+            <div class="answers">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <a href="#page23" data-transition="slideup">
+                                <button class="choice">
+                                    Hackeuse ? 
+                                    <br>
+                                    Quelqu’un a peur 
+                                    <br>
+                                    de vos capacités donc. 
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#page23" data-transition="slideup">
+                                <button class="choice">
+                                  Comment êtes-vous rentré 
+                                  <br>
+                                  dans mon téléphone ?  
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="mhn-ui-page page-contact">
+
+
+
+    <!--PAGE 23-->
+   <div data-role="page" id="page23">
+        <div data-role="main" class="ui-content">
+            <div class="text-center dialogue">
+                <h3>
+                   Vous comprenez maintenant pourquoi 
+                   <br>
+                   j’ai besoin de vous. 
+                   <br>
+                   Je vais vous guider vers les endroits 
+                   <br>
+                   où mon signal s’affaiblit.
+
+                </h3>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed" class="footer">
+            <div class="answers">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-push-4">
+                            <a href="#page24" data-transition="slideup">
+                                <button class="choice">
+                                    Pourquoi ? 
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="mhn-ui-page page-credits">
-    </div>
-    <div class="mhn-ui-dialog-wrap">
-    </div>
-</div>
-</div>
-</div>
+    <!--PAGE 24-->
+   <div data-role="page" id="page24">
+        <div data-role="main" class="ui-content">
+            <div class="text-center dialogue">
+                <h3>
+                  Si mon signal faiblit, c’est qu’il y a une raison. 
+                  <br>
+                  Le système de sécurité de la pièce où 
+                  <br>
+                  je suis enfermé s’est affaiblit 
+                  <br>
+                  après votre passage à l’Arche.
 
- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-<script scr="script.js"></script>
-<script src="plugin.js"></script>
-<script src="main.js"></script>
-<script>
-    jQuery(window).load(function() {
-        // will first fade out the loading animation
-        jQuery("#status").fadeOut();
-        // will fade out the whole DIV that covers the website.
-        jQuery("#preloader").delay(1000).fadeOut("slow");
-    })
-</script>
+                </h3>
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed" class="footer">
+            <div class="answers">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-push-3">
+                            <a href="#page25" data-transition="slideup">
+                                <button class="choice">
+                                   Ah ! Je comprend  ! 
+                                   <br>
+                                   Qu’est-ce que je fais maintenant ?
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="plugin.js"></script>
+    <script src="main.js"></script>
+    <script>
+        jQuery(window).load(function () {
+            // will first fade out the loading animation
+            jQuery("#status").fadeOut();
+            // will fade out the whole DIV that covers the website.
+            jQuery("#preloader").delay(1000).fadeOut("slow");
+        })
+    </script>
 </body>
+
 </html>
