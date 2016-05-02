@@ -40,7 +40,7 @@
                     <br>
                     <span id="text2">Y’a quelqu’un ? </span>
                     <br>
-                    <span id="text3">Vous me recevez ? </span>
+                    <span id="text3">Vous me recevez ? <br> Repondez s'il vous plait </span>
                 </h3>
             </div>
         </div>
@@ -59,7 +59,7 @@
                         <div class="col-xs-6">
                             <a href="#page2b" data-transition="slideup">
                                 <button class="choice">
-                                    Quoi ? Qui êtes-vous ?
+                                    Oui je vous reçois ? <br> Qui êtes-vous ?
                                 </button>
                             </a>
                         </div>
@@ -74,9 +74,9 @@
         <div data-role="main" class="ui-content">
             <div class="text-center dialogue">
                 <h3>
-                    Ah, bonjour. Je m’appelle Jayce, détective privé.
+                    J’ai été kidnappée et j’ai besoin de votre aide. Vous êtes la seule personne que j’ai réussi à contacter depuis mon enlèvement.
                     <br>
-                    Et j’aurais besoin de votre aide. Vous vous situez bien à la Défense ?
+                    Mon nom est Jayce, je suis détective privé, pouvez-vous m’aider ?
                 </h3>
             </div>
         </div>
@@ -87,16 +87,14 @@
                         <div class="col-xs-6">
                             <a href="#page3a" data-transition="slideup">
                                 <button class="choice">
-                                    Oui je suis à la Défense,
-                                    <br> que se passe-t-il ??
+                                    Oui
                                 </button>
                             </a>
                         </div>
                         <div class="col-xs-6">
                             <a href="#page3b" data-transition="slideup">
                                 <button class="choice">
-                                    Je suis à la Défense…
-                                    <br> mais pourquoi moi ?
+                                   Non
                                 </button>
                             </a>
                         </div>
@@ -113,9 +111,9 @@
                 <div class="row">
                     <div class="text-center">
                         <h3>
-                            Je me présente : Jayce, détective privé.
+                            Bonjour. Je m’appelle Jayce, détective privé. Et j’aurais besoin de votre aide.
                             <br>
-                            J’ai été kidnappé et j’aurai besoin d’aide. Vous vous trouvez bien à la Défense ?
+                            On m’a kidnappée, j’ignore où je me trouve mais j’ai enfin réussi à contacter quelqu’un, allez-vous m’aider ?
                         </h3>
                     </div>
                 </div>
@@ -129,16 +127,14 @@
                         <div class="col-xs-6">
                             <a href="#page3a" data-transition="slideup">
                                 <button class="choice">
-                                    Oui je suis à la Défense,
-                                    <br> que se passe-t-il ?
+                                    Oui
                                 </button>
                             </a>
                         </div>
                         <div class="col-xs-6">
                             <a href="#page3b" data-transition="slideup">
                                 <button class="choice">
-                                    Je suis à la Défense…
-                                    <br> mais pourquoi moi ?
+                                    Non
                                 </button>
                             </a>
                         </div>
@@ -155,27 +151,9 @@
                 <div class="row">
                     <div class="text-center">
                         <h3>
-                            J’ai été kidnappée et j’ai besoin de votre aide.
-                            <br>
-                            Vous êtes la seule personne que j’ai réussie à contacter depuis mon enlèvement.
+                            Merci ! Pour commencer il faut renforcer le signal de communication.
+                            Rendez-vous à l’arche de la Défense. <br> <i>:::: [signal lost]  :::</i>
                         </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div data-role="footer" data-position="fixed" class="footer">
-            <div class="answers">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 text-center">
-                            <a href="#page4" data-transition="slideup">
-                                <button class="choice">
-                                    Vous avez été kidnappé ?
-                                    <br> Mais par qui ?
-                                    <br> Et pourquoi ?
-                                </button>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -188,7 +166,7 @@
             <div class="container">
                 <div class="row">
                     <div class="text-center">
-                        <h3>Je suis dans situation critique. Vous êtes la seule personne que j’ai réussi à contacter depuis mon enlèvement.</h3>
+                        <h3>Je vous en prie, aidez-moi ! </h3>
                     </div>
                 </div>
             </div>
@@ -198,12 +176,17 @@
             <div class="answers">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12 text-center">
-                            <a href="#page4" data-transition="slideup">
+                        <div class="col-xs-6">
+                            <a href="#page4a" data-transition="slideup">
                                 <button class="choice">
-                                    Vous avez été kidnappé ?
-                                    <br> Mais par qui ?
-                                    <br> Et pourquoi ?
+                                    Oui
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#page4b" data-transition="slideup">
+                                <button class="choice">
+                                    Non
                                 </button>
                             </a>
                         </div>
@@ -213,29 +196,35 @@
         </div>
     </div>
 
-    <!--PAGE 4-->
-    <div data-role="page" id="page4">
+    <!--PAGE 4A-->
+    <div data-role="page" id="page4a">
         <div data-role="main" class="ui-content">
-            <div class="text-center dialogue">
-                <h3>
-                   C'est...
-                   <br>
-                   <br>
-                   <i>:::: [signal lost]:::</i>
-                   <br>
-                   <br>
-                   rendez-vous à  l’arche pour....<i>
-                   <br>
-                   <br>
-                   [signal lost]</i>
-                </h3>
-               
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <h3>
+                            Merci ! Pour commencer il faut renforcer le signal de communication.
+                            Rendez-vous à l’arche de la Défense. <br> <i>:::: [signal lost]  :::</i>
+                        </h3>
+                    </div>
+                </div>
             </div>
         </div>
-        <div data-role="footer" data-position="fixed" class="footer">
-             <div class="text-center">
-                    <small>Rendez-vous à l'arche</small>
+    </div>
+
+    <!--PAGE 4A-->
+    <div data-role="page" id="page4b">
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <h3>
+                            Je ne vous reçois plus très bien, il faut renforcer le signal de communication.
+                            Rendez-vous à l’arche de la Défense, j'ai besoin de vous. <br> <i>:::: [signal lost]  :::</i>
+                        </h3>
+                    </div>
                 </div>
+            </div>
         </div>
     </div>
 

@@ -56,5 +56,15 @@
 			<sound><![CDATA[]]></sound>
 			<frequency>always</frequency>
 		</beacon>
+		<beacon>
+			<uuid><![CDATA[9A769786-C1CD-4C44-B452-B6C2B08517EE]]></uuid>
+			<majorValue>1</majorValue>
+			<minorValue>39</minorValue>
+			<rangeLimit>1</rangeLimit>
+			<link type="pageID"><![CDATA[Page 3]]></link>
+			<prompt><![CDATA[Enigme 2]]></prompt>
+			<sound><![CDATA[]]></sound>
+			<frequency>once</frequency>
+		</beacon>
 	</beacons>
 </beacondo>

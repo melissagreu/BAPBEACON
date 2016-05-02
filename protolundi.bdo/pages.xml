@@ -56,6 +56,29 @@
 		</rightButton>
 
 			</page>
+			<page>
+				<id><![CDATA[Page 3]]></id>
+				<ean><![CDATA[]]></ean>
+				<title><![CDATA[Page 3]]></title>
+				<price><![CDATA[]]></price>
+				<titleImage><![CDATA[]]></titleImage>
+				<thumbnail><![CDATA[]]></thumbnail>
+				<thumbnailFromHeader><![CDATA[0]]></thumbnailFromHeader>
+				<content><![CDATA[]]></content>
+
+				<contentSource><![CDATA[file]]></contentSource>
+
+				<contentTemplate><![CDATA[enigme2.html]]></contentTemplate>
+
+				<header type="carousel" height="180" pagingDots="0">
+				</header>
+		<rightButton>
+			<title><![CDATA[]]></title>
+			<image><![CDATA[]]></image>
+			<link type="nothing"><![CDATA[]]></link>
+		</rightButton>
+
+			</page>
 		</pages>
 	</section>
 </beacondo>
