@@ -41,10 +41,24 @@
                 <div id="status">
                 </div>
             </div>
+
             <!--PATTERN-->
             <div class="mhn-ui-wrap">
                 <div class="mhn-ui-page page-lock">
                     <div class="mhn-lock-wrap">
+
+                        <div data-role="main" class="ui-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="text-center">
+                                        <h3>
+                                            Le groupe qui m’a kidnappé utilise un brouilleur pour empêcher les communications, j’ai besoin que vous le désactiviez, trouvez le code !
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="mhn-lock-title" data-title="Dessine ce que tu vois"></div>
                         <div class="mhn-lock"></div>
                     </div>
@@ -52,46 +66,22 @@
 
                 <div class="mhn-ui-page page-home">
                     <!--APRES LE DEVEROUILLAGE-->
-                    <div class="text-center dialogue">
+                    <div class="text-center dialoguepattern">
                         <h3>
-                           Bien joué !
-                            <br>
-                            Je te reçois mieux.
-                            <br>
-                           <a href="#page22" data>
-                               <button>
-                                    super   
-                               </button>
-                           </a>
+                            Bien joué ! <br> Nous pouvons à présent parler tranquillement.
+                            J’enquêtais sur une organisation qui projette de détruire les oeuvres de la Défense quand
+                            ses membres m’ont enlevé ! J’étais pourtant si proche de les coincer !
                         </h3>
+
+
+                        <a href="#page22" data-transition="slideup">
+                            <button class="choice" id="btnsuite">
+                                Suite
+                            </button>
+                        </a>
+
                     </div>
                 </div>
-                    <!--<div data-role="footer" data-position="fixed" class="footer mhn-ui-footer">
-
-                        <div class="answers">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-xs-6">
-                                        <a href="#" data-transition="slide">
-                                            <button class="choice">
-                                                Vous allez me dire
-                                                <br> qui vous êtes ?
-                                            </button>
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <a href="#" data-transition="slide">
-                                            <button class="choice">
-                                                Qu’est-ce que c’est
-                                                <br> que cette histoire ?
-                                            </button>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>-->
-                
             </div>
         </div>
     </div>
@@ -101,9 +91,11 @@
         <div data-role="main" class="ui-content">
             <div class="text-center dialogue">
                 <h3>
-                    Il semblerait que ceux qui m’ont enlevé 
-                    <br>
-                    ne veulent pas qu’on me retrouve.
+                    A présent pour les arrêter je vais avoir besoin de ton aide.
+                    Tu vas devoir trouver les différentes oeuvres menacées et désactiver
+                    la balise qui s’y trouve pour me permettre de hacker leur système et faire échouer leur plan.
+                    <br>Compris ?
+
                 </h3>
             </div>
         </div>
@@ -114,18 +106,14 @@
                         <div class="col-xs-6">
                             <a href="#page22a" data-transition="slideup">
                                 <button class="choice">
-                                    Vous allez me 
-                                    <br>
-                                    dire qui vous êtes ?
+                                    Oui
                                 </button>
                             </a>
                         </div>
                         <div class="col-xs-6">
                             <a href="#page22b" data-transition="slideup">
                                 <button class="choice">
-                                   Qu’est-ce que c’est 
-                                   <br>
-                                   que cette histoire ? 
+                                   Non
                                 </button>
                             </a>
                         </div>
@@ -140,40 +128,14 @@
         <div data-role="main" class="ui-content">
             <div class="text-center dialogue">
                 <h3>
-                    Je suis détective privée 
-                    <br>
-                    mais surtout une hackeuse professionnelle…
+                    Super ! <br> Voici ce que j’ai pu trouver sur le premier objectif,
+                    rends toi là-bas et désactive la balise, bonne chance.
                 </h3>
+
             </div>
+            <img src="oeuvrezoom.png" width="300px">
         </div>
-        <div data-role="footer" data-position="fixed" class="footer">
-            <div class="answers">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <a href="#page23" data-transition="slideup">
-                                <button class="choice">
-                                    Hackeuse ? 
-                                    <br>
-                                    Quelqu’un a peur 
-                                    <br>
-                                    de vos capacités donc. 
-                                </button>
-                            </a>
-                        </div>
-                        <div class="col-xs-6">
-                            <a href="#page23" data-transition="slideup">
-                                <button class="choice">
-                                  Comment êtes-vous rentré 
-                                  <br>
-                                  dans mon téléphone ?  
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
 
 
@@ -182,130 +144,13 @@
         <div data-role="main" class="ui-content">
             <div class="text-center dialogue">
                 <h3>
-                    J’étais en train d'enquêter sur un organisme 
-                    <br>
-                    qui se fait appeler “la société” 
-                    <br>
-                    lorsqu’ils m’ont retrouvé.
-                </h3>
-            </div>
-        </div>
-        <div data-role="footer" data-position="fixed" class="footer">
-            <div class="answers">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <a href="#page23" data-transition="slideup">
-                                <button class="choice">
-                                    Hackeuse ? 
-                                    <br>
-                                    Quelqu’un a peur 
-                                    <br>
-                                    de vos capacités donc. 
-                                </button>
-                            </a>
-                        </div>
-                        <div class="col-xs-6">
-                            <a href="#page23" data-transition="slideup">
-                                <button class="choice">
-                                  Comment êtes-vous rentré 
-                                  <br>
-                                  dans mon téléphone ?  
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <!--PAGE 23-->
-   <div data-role="page" id="page23">
-        <div data-role="main" class="ui-content">
-            <div class="text-center dialogue">
-                <h3>
-                   Vous comprenez maintenant pourquoi 
-                   <br>
-                   j’ai besoin de vous. 
-                   <br>
-                   Je vais vous guider vers les endroits 
-                   <br>
-                   où mon signal s’affaiblit.
+                    Pour faire simple rend toi à l’oeuvre grâce à l’indice et résout l’énigme !
+                    Voici ce que j’ai pu trouver sur le premier objectif, bonne chance.
 
                 </h3>
             </div>
         </div>
-        <div data-role="footer" data-position="fixed" class="footer">
-            <div class="answers">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6 col-xs-push-4">
-                            <a href="#page24" data-transition="slideup">
-                                <button class="choice">
-                                    Pourquoi ? 
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--PAGE 24-->
-   <div data-role="page" id="page24">
-        <div data-role="main" class="ui-content">
-            <div class="text-center dialogue">
-                <h3>
-                  Si mon signal faiblit, c’est qu’il y a une raison. 
-                  <br>
-                  Le système de sécurité de la pièce où 
-                  <br>
-                  je suis enfermé s’est affaiblit 
-                  <br>
-                  après votre passage à l’Arche.
-
-                </h3>
-
-            </div>
-        </div>
-        <div data-role="footer" data-position="fixed" class="footer">
-            <div class="answers">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6 col-xs-push-3">
-                            <a href="#page25" data-transition="slideup">
-                                <button class="choice">
-                                   Ah ! Je comprend  ! 
-                                   <br>
-                                   Qu’est-ce que je fais maintenant ?
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--PAGE 25-->
-    <div data-role="page" id="page25">
-        <div data-role="main" class="ui-content">
-            <div class="text-center dialogue">
-                <h3>
-                    Mettez vous dos à l’arche et marchez<br>
-                    droit devant vous vers la Tour EDF.<br>
-                    Il faut que vous retrouviez ceci :
-                </h3>
-            </div>
-            <div class="text-center">
-                <img src="oeuvrezoom.png" width="300">
-            </div>
-        </div>
+       <img src="oeuvrezoom.png" width="300px">
     </div>
 
     

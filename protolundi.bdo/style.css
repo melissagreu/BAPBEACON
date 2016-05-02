@@ -8,10 +8,7 @@
 #page21,
 #page22,
 #page22a,
-#page22b,
-#page23,
-#page24,
-#page25{
+#page22b{
     background: url(bg1.png) no-repeat center;
     background-size: cover;
     color: #ecf0f1;
@@ -21,6 +18,16 @@
 div.dialogue {
     padding-top: 100px;
     height: 50vh;
+}
+
+div.dialoguepattern{
+    padding-top: 100px;
+}
+
+#btnsuite{
+    position: absolute;
+    bottom: 0;
+    width: 50vh;
 }
 
 .choice {
@@ -207,4 +214,7 @@ p
 {
     color: #3498db;
 }
+
+
+
 

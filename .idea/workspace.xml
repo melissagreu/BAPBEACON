@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2af4def-f6a0-4d63-8e8b-b5310aab7b68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protolundi.bdo/enigme2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protolundi.bdo/extras.xml" afterPath="$PROJECT_DIR$/protolundi.bdo/extras.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protolundi.bdo/index.html" afterPath="$PROJECT_DIR$/protolundi.bdo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protolundi.bdo/layout.xml" afterPath="$PROJECT_DIR$/protolundi.bdo/layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protolundi.bdo/pages.xml" afterPath="$PROJECT_DIR$/protolundi.bdo/pages.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protolundi.bdo/enigme1.html" afterPath="$PROJECT_DIR$/protolundi.bdo/enigme1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protolundi.bdo/style.css" afterPath="$PROJECT_DIR$/protolundi.bdo/style.css" />
     </list>
     <ignored path="BAPBEACON.iws" />
@@ -33,18 +29,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protolundi.bdo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state relative-caret-position="55">
+              <caret line="122" column="69" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enigme1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="enigme1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4620">
-              <caret line="308" column="10" selection-start-line="294" selection-start-column="4" selection-end-line="308" selection-end-column="10" />
+            <state relative-caret-position="90">
+              <caret line="42" column="18" selection-start-line="39" selection-start-column="12" selection-end-line="42" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -60,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protolundi.bdo/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="180">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -92,11 +88,11 @@
         <option value="$PROJECT_DIR$/protolundi.bdo/patternlock.css" />
         <option value="$PROJECT_DIR$/protolundi.bdo/patternLock.css" />
         <option value="$PROJECT_DIR$/protolundi.bdo/script.js" />
-        <option value="$PROJECT_DIR$/protolundi.bdo/enigme1.html" />
         <option value="$PROJECT_DIR$/protolundi.bdo/enigme3.html" />
         <option value="$PROJECT_DIR$/protolundi.bdo/enigme2.html" />
         <option value="$PROJECT_DIR$/protolundi.bdo/index.html" />
         <option value="$PROJECT_DIR$/protolundi.bdo/style.css" />
+        <option value="$PROJECT_DIR$/protolundi.bdo/enigme1.html" />
       </list>
     </option>
   </component>
@@ -234,12 +230,12 @@
       <workItem from="1460101089472" duration="433000" />
       <workItem from="1460551106461" duration="4264000" />
       <workItem from="1461155581460" duration="7046000" />
-      <workItem from="1462214446938" duration="1446000" />
+      <workItem from="1462214446938" duration="5546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21234000" />
+    <option name="totallyTimeSpent" value="25334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -406,10 +402,10 @@
     <entry file="file://$PROJECT_DIR$/protolundi.bdo/patternLock.css" />
     <entry file="file://$PROJECT_DIR$/protolundi.bdo/script.js" />
     <entry file="file://$PROJECT_DIR$/protolundi.bdo/main.js" />
-    <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme1.html">
+    <entry file="file://$PROJECT_DIR$/protolundi.bdo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4620">
-          <caret line="308" column="10" selection-start-line="294" selection-start-column="4" selection-end-line="308" selection-end-column="10" />
+        <state relative-caret-position="55">
+          <caret line="122" column="69" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -422,18 +418,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protolundi.bdo/index.html">
+    <entry file="file://$PROJECT_DIR$/protolundi.bdo/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protolundi.bdo/style.css">
+    <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="42" column="18" selection-start-line="39" selection-start-column="12" selection-end-line="42" selection-end-column="18" />
           <folding />
         </state>
       </provider>
