@@ -33,14 +33,10 @@
     <!--PAGE enigme chiffre-->
     <div data-role="page" id="page31">
         <div data-role="main" class="ui-content">
-            <div class="text-center dialogue">
-                <h3>
-                    Combien de chiffre voyez-vous sur cette image ?
-                </h3>
-
-
-            </div>
             <div class="text-center">
+                <h3>
+                    Sauriez-vous retrouver le code qui se cache sur ce tableau ?
+                </h3>
                 <img src="enigmechiffre.png" width="300">
             </div>
         </div>
@@ -67,7 +63,7 @@
                         <div class="col-md-12">
                             <input type="number" id="telNumber" class="form-control" value="" min="9298" max="9298" />
                             <div class="num-pad">
-                                <p id="reponse"></p>
+
                                 <div class="span4">
                                     <div class="num">
                                         <div class="txt">
@@ -173,6 +169,7 @@
                             <div class="clearfix">
                             </div>
                             <button onclick="myFunction()">Répondre</button>
+
                         </div>
                     </div>
 
@@ -185,10 +182,65 @@
                 </div>
             </div>
         </div>
+    <p id="reponse"></p>
+    </div>
+
+
+    <!--PAGE 32-->
+    <div data-role="page" id="page32">
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center dialogue">
+                        <h3>
+                            Bravo, première oeuvre de sauvée !<br><br>
+                            Savais-tu que l’homme sur la photo était Joan Mirò,
+                            c’est le créateur de l’oeuvre. C’était un homme avec beaucoup d’humour
+                            qui est venu à Paris pour rencontrer les plus grands artistes de son temps.
+
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed" class="footer">
+            <div class="answers">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <a href="#page33" data-transition="slideup">
+                                <button class="choice">
+                                    Suite
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--PAGE 33-->
+    <div data-role="page" id="page33">
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center dialogue">
+                        <h3>
+                            Enfin, trève de bavardages,
+                            je t’envoie les renseignements que j’ai sur la prochaine oeuvre.<br><br> A toi de jouer.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 
-<script>
+
+
+    <script>
 
     $(document).ready(function () {
 
@@ -215,7 +267,7 @@
         }
 
         else {
-            txt = "OK <a href='enigme1.html'>Suite</a>";
+            txt = "<a href='#page32'><button class='choice' id='btnsuite'>Suite</button></a>";
         }
         document.getElementById("reponse").innerHTML = txt;
     }
