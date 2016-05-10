@@ -34,20 +34,27 @@
     <!--PAGE 1-->
     <div data-role="page" id="page1">
         <div data-role="main" class="ui-content">
-            <div class="text-center dialogue">
-                <h3>
-                    <span id="text1">Allô...? </span>
-                    <br>
-                    <span id="text2">Y’a quelqu’un ? </span>
-                    <br>
-                    <span id="text3">Vous me recevez ? <br> Repondez s'il vous plait </span>
-                </h3>
-            </div>
-        </div>
-        <div data-role="footer" data-position="fixed" class="footer">
-            <div class="answers">
-                <div class="container">
-                    <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
+                            Allô...?
+                            <br>
+                            Il y a quelqu’un ?
+                            <br>
+                            Vous me recevez ? 
+                            <br> Repondez s'il vous plait
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="footer">
                         <div class="col-xs-6">
                             <a href="#page2a" data-transition="slideup">
                                 <button class="choice">
@@ -59,7 +66,8 @@
                         <div class="col-xs-6">
                             <a href="#page2b" data-transition="slideup">
                                 <button class="choice">
-                                    Oui je vous reçois ? <br> Qui êtes-vous ?
+                                    Oui je vous reçois
+                                    <br> Qui êtes-vous ?
                                 </button>
                             </a>
                         </div>
@@ -72,18 +80,24 @@
     <!--PAGE 2A-->
     <div data-role="page" id="page2a">
         <div data-role="main" class="ui-content">
-            <div class="text-center dialogue">
-                <h3>
-                    J’ai été kidnappée et j’ai besoin de votre aide. Vous êtes la seule personne que j’ai réussi à contacter depuis mon enlèvement.
-                    <br>
-                    Mon nom est Jayce, je suis détective privé, pouvez-vous m’aider ?
-                </h3>
-            </div>
-        </div>
-        <div data-role="footer" data-position="fixed" class="footer">
-            <div class="answers">
-                <div class="container">
-                    <div class="row">
+
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
+                                J’ai été kidnappée et j’ai besoin de votre aide. Vous êtes la seule personne que j’ai réussie à contacter depuis mon enlèvement.
+                                <br>
+                                Mon nom est Jayce, je suis détective privé, pouvez-vous m’aider ?
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="footer">
                         <div class="col-xs-6">
                             <a href="#page3a" data-transition="slideup">
                                 <button class="choice">
@@ -94,7 +108,7 @@
                         <div class="col-xs-6">
                             <a href="#page3b" data-transition="slideup">
                                 <button class="choice">
-                                   Non
+                                    Non
                                 </button>
                             </a>
                         </div>
@@ -107,34 +121,36 @@
     <!--PAGE 2B-->
     <div data-role="page" id="page2b">
         <div data-role="main" class="ui-content">
+
             <div class="container">
                 <div class="row">
-                    <div class="text-center">
-                        <h3>
-                            Bonjour. Je m’appelle Jayce, détective privé. Et j’aurais besoin de votre aide.
-                            <br>
-                            On m’a kidnappée, j’ignore où je me trouve mais j’ai enfin réussi à contacter quelqu’un, allez-vous m’aider ?
-                        </h3>
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
+                                Je m’appelle Jayce, je suis détective privé. Et j’ai besoin de votre aide.
+                                <br>
+                                On m’a kidnappée, j’ignore où je me trouve mais j’ai enfin réussi à contacter quelqu’un, pouvez-vous m’aider ?
+                            </h3>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div data-role="footer" data-position="fixed" class="footer">
-            <div class="answers">
-                <div class="container">
-                    <div class="row">
+                <div class="row">
+                    <div class="footer">
                         <div class="col-xs-6">
                             <a href="#page3a" data-transition="slideup">
                                 <button class="choice">
-                                    Oui
+                                    Oui, bien sur !
                                 </button>
                             </a>
                         </div>
                         <div class="col-xs-6">
                             <a href="#page3b" data-transition="slideup">
                                 <button class="choice">
-                                    Non
+                                    Euh...
+                                    <br>je ne suis pas sur..
                                 </button>
                             </a>
                         </div>
@@ -149,11 +165,20 @@
         <div data-role="main" class="ui-content">
             <div class="container">
                 <div class="row">
-                    <div class="text-center">
-                        <h3>
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
                             Merci ! Pour commencer il faut renforcer le signal de communication.
-                            Rendez-vous à l’arche de la Défense. <br> <i>:::: [signal lost]  :::</i>
-                        </h3>
+                            Rendez-vous à l’arche de la Défense. <br><br> <i>:::: [signal lost]  :::</i><br><br>
+                            Une fois sur place, trouvez le beacon et posez votre téléphone dessus. <br><br>
+                            <i>:::: [signal lost] ::::</i><br>
+                            <br>
+                            Pensez à activer votre bluetooth.
+                            </h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -165,30 +190,34 @@
         <div data-role="main" class="ui-content">
             <div class="container">
                 <div class="row">
-                    <div class="text-center">
-                        <h3>Je vous en prie, aidez-moi ! </h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div data-role="footer" data-position="fixed" class="footer">
-            <div class="answers">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <a href="#page4a" data-transition="slideup">
-                                <button class="choice">
-                                    Oui
-                                </button>
-                            </a>
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
                         </div>
-                        <div class="col-xs-6">
-                            <a href="#page4b" data-transition="slideup">
-                                <button class="choice">
-                                    Non
-                                </button>
-                            </a>
+                        <div class="col-xs-10">
+                            <h3>
+                            Je vous en prie, aidez-moi ! <br>
+                            Je n'ai pu joindre que vous, vous êtes ma seule chance !!</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="footer">
+                            <div class="col-xs-6">
+                                <a href="#page4a" data-transition="slideup">
+                                    <button class="choice">
+                                        Euh...
+                                        <br>d'accord alors...
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="col-xs-6">
+                                <a href="#page4b" data-transition="slideup">
+                                    <button class="choice">
+                                        ...
+                                        <br> Comment vous croire ?
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -201,11 +230,20 @@
         <div data-role="main" class="ui-content">
             <div class="container">
                 <div class="row">
-                    <div class="text-center">
-                        <h3>
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
                             Merci ! Pour commencer il faut renforcer le signal de communication.
-                            Rendez-vous à l’arche de la Défense. <br> <i>:::: [signal lost]  :::</i>
-                        </h3>
+                            Rendez-vous à l’arche de la Défense. <br><br> <i>:::: [signal lost]  :::</i><br><br>
+                            Une fois sur place, trouvez le beacon et posez votre téléphone dessus. <br><br>
+                            <i>:::: [signal lost] ::::</i><br>
+                            <br>
+                            Pensez à activer votre bluetooth.
+                            </h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -217,21 +255,21 @@
         <div data-role="main" class="ui-content">
             <div class="container">
                 <div class="row">
-                    <div class="text-center">
-                        <h3>
-                            Je ne vous reçois plus très bien, il faut renforcer le signal de communication.
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
+                               Je ne vous reçois plus très bien, il faut renforcer le signal de communication.
                             Rendez-vous à l’arche de la Défense, j'ai besoin de vous. <br> <i>:::: [signal lost]  :::</i>
-                        </h3>
+                           </h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <script>
-        $("#text1").fadeIn("slow").fadeOut(5000);
-        $("#text2").fadeIn();
-        $("#text3").fadeIn(5000);
-    </script>
 </body>
+
 </html>

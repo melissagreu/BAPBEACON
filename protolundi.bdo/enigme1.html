@@ -41,7 +41,6 @@
                 <div id="status">
                 </div>
             </div>
-
             <!--PATTERN-->
             <div class="mhn-ui-wrap">
                 <div class="mhn-ui-page page-lock">
@@ -50,35 +49,53 @@
                         <div data-role="main" class="ui-content">
                             <div class="container">
                                 <div class="row">
-                                    <div class="text-center">
-                                        <h3>
-                                            Le groupe qui m’a kidnappé utilise un brouilleur pour empêcher les communications, j’ai besoin que vous le désactiviez, trouvez le code !
-                                        </h3>
+                                    <div class="dialogue">
+                                        <div class="col-xs-2">
+                                            <h3>></h3>
+                                        </div>
+                                        <div class="col-xs-10">
+                                            <h3>
+                                                  Le groupe qui m’a kidnappé utilise un brouilleur pour empêcher les communications, <br>
+                                                    j’ai besoin que vous le désactiviez, trouvez le code !
+                                            </h3>
+                                        </div>
                                     </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mhn-lock-title" data-title="Dessine ce que tu vois"></div>
+                                    <div class="mhn-lock"></div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="mhn-lock-title" data-title="Dessine ce que tu vois"></div>
-                        <div class="mhn-lock"></div>
                     </div>
                 </div>
 
                 <div class="mhn-ui-page page-home">
                     <!--APRES LE DEVEROUILLAGE-->
-                    <div class="text-center ">
-                        <h3>
-                            Bien joué ! <br> Nous pouvons à présent parler tranquillement.
-                            J’enquêtais sur une organisation qui projette de détruire les oeuvres de la Défense quand
-                            ses membres m’ont enlevé ! J’étais pourtant si proche de les coincer !
-                        </h3>
-
-
-                        <a href="#page22" data-transition="slideup">
-                            <button class="choice" id="btnsuite">
-                                Suite
-                            </button>
-                        </a>
+                    <div class="row">
+                        <div class="dialogue">
+                            <div class="col-xs-2">
+                                <h3>></h3>
+                            </div>
+                            <div class="col-xs-10">
+                                <h3>
+                                Bien joué ! <br> Nous pouvons à présent parler tranquillement.
+                                J’enquêtais sur une organisation qui projette de détruire les oeuvres de la Défense quand
+                                ses membres m’ont enlevé ! J’étais pourtant si proche de les coincer !
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="footer">
+                                <div class="text-center">
+                                    <a href="#page22" data-transition="slideup">
+                                        <button>
+                                            Suite
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
@@ -87,35 +104,37 @@
     </div>
 
     <!--PAGE 22-->
-   <div data-role="page" id="page22">
+    <div data-role="page" id="page22">
         <div data-role="main" class="ui-content">
-            <div class="text-center dialogue">
-                <h3>
-                    A présent pour les arrêter je vais avoir besoin de ton aide.
-                    Tu vas devoir trouver les différentes oeuvres menacées et désactiver
-                    la balise qui s’y trouve pour me permettre de hacker leur système et faire échouer leur plan.
-                    <br>Compris ?
-
-                </h3>
-            </div>
-        </div>
-        <div data-role="footer" data-position="fixed" class="footer">
-            <div class="answers">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <a href="#page22a" data-transition="slideup">
-                                <button class="choice">
-                                    Oui
-                                </button>
-                            </a>
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
                         </div>
-                        <div class="col-xs-6">
-                            <a href="#page22b" data-transition="slideup">
-                                <button class="choice">
-                                   Non
-                                </button>
-                            </a>
+                        <div class="col-xs-10">
+                            <h3>
+                            A présent pour les arrêter je vais avoir besoin de votre aide. Vous allez devoir trouver les différentes oeuvres menacées et désactiver la balise qui s’y trouve pour me permettre de hacker leur système et faire échouer leur plan.
+                            <br>Compris ?
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="footer">
+                            <div class="col-xs-6">
+                                <a href="#page22a" data-transition="slideup">
+                                    <button class="choice">
+                                        Oui !
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="col-xs-6">
+                                <a href="#page22b" data-transition="slideup">
+                                    <button class="choice">
+                                        Pas vraiment...
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -123,37 +142,59 @@
         </div>
     </div>
 
-        <!--PAGE 22a-->
-   <div data-role="page" id="page22a">
+    <!--PAGE 22a-->
+    <div data-role="page" id="page22a">
         <div data-role="main" class="ui-content">
-            <div class="text-center dialogue">
-                <h3>
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
                     Super ! <br> Voici ce que j’ai pu trouver sur le premier objectif,
-                    rends toi là-bas et désactive la balise, bonne chance.
-                </h3>
-
+                    rendez vous là-bas et désactivez la balise, bonne chance.
+                    </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text-center">
+                            <img src="oeuvrezoom.png" width="300px">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <img src="oeuvrezoom.png" width="300px">
         </div>
-
     </div>
 
 
     <!--PAGE 22b-->
-   <div data-role="page" id="page22b">
+    <div data-role="page" id="page22b">
         <div data-role="main" class="ui-content">
-            <div class="text-center dialogue">
-                <h3>
-                    Pour faire simple rend toi à l’oeuvre grâce à l’indice et résout l’énigme !
-                    Voici ce que j’ai pu trouver sur le premier objectif, bonne chance.
-
-                </h3>
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
+                    Pour faire simple, localisez l’oeuvre grâce à l’indice, rendez vous sur place et résolvez l’énigme ! Voici ce que j’ai pu trouver sur le premier objectif, bonne chance.
+                    </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text-center">
+                            <img src="oeuvrezoom.png" width="300px">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-       <img src="oeuvrezoom.png" width="300px">
     </div>
 
-    
+
 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
