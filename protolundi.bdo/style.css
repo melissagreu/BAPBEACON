@@ -24,6 +24,7 @@
 #page34 {
     background: url(bg1.png) no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -40,21 +41,21 @@ small{ text-shadow: none !important; color: white !important; text-decoration: n
 /*-----------------------------------------------------------------------------------*/
 /*  CHOIX DE REPONSES
 /*-----------------------------------------------------------------------------------*/
-.footer {height: 100px; position: fixed; bottom:0;}
+.footer {height: 100px; width:100%; position: fixed; bottom:0;}
 .choice:hover {color: #fff!important;}
 button {box-shadow: none!important;}
 .choice {
     text-align: center;
     color: #b0641a!important;
     text-shadow: none!important;
-    width: 150px!important;
+    width: 100%!important;
     background-color: transparent!important;
     border:none!important;
     border-style:solid!important;
     border-bottom: none!important;
     border-top: none!important;
     border-width:0.2em!important;
-     font-family: 'Khand', sans-serif!important;
+    font-family: 'Khand', sans-serif!important;
     font-weight: 300!important;
     font-size: 1.2em;
 }
