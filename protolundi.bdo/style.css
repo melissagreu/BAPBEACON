@@ -1,3 +1,7 @@
+
+/*-----------------------------------------------------------------------------------*/
+/*  GENERAL
+/*-----------------------------------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
 @import url(https://fonts.googleapis.com/css?family=Khand:300);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
@@ -22,26 +26,26 @@
     background-size: cover;
 }
 
-div.dialogue {
-  padding-top: 50px;
-}
 
-div.dialogue h3{
-  font-family: 'Open Sans Condensed', sans-serif!important;
-  font-weight: 300!important;
-  color: #b0b0b0;
-}
+/*-----------------------------------------------------------------------------------*/
+/*  DIALOGUE DE JAYCE
+/*-----------------------------------------------------------------------------------*/
+div.dialogue {padding-top: 50px;}
+div.dialogue h3{font-family: 'Open Sans Condensed', sans-serif!important; font-weight: 300!important; color: #b0b0b0;}
+small{ text-shadow: none !important; color: white !important; text-decoration: none !important;}
 
-#btnsuite{
-    
-    width: 50vh;
-}
 
+/*-----------------------------------------------------------------------------------*/
+/*  CHOIX DE REPONSES
+/*-----------------------------------------------------------------------------------*/
+.footer {height: 100px; position: fixed; bottom:0;}
+.choice:hover {color: #fff!important;}
+button {box-shadow: none!important;}
 .choice {
     text-align: center;
     color: #b0641a!important;
     text-shadow: none!important;
-    width: 190px!important;
+    width: 150px!important;
     background-color: transparent!important;
     border:none!important;
     border-style:solid!important;
@@ -50,104 +54,27 @@ div.dialogue h3{
     border-width:0.2em!important;
      font-family: 'Khand', sans-serif!important;
     font-weight: 300!important;
-    font-size: 1.3em;
-}
-
-.choice:hover {
-    color: #fff!important;
+    font-size: 1.2em;
 }
 
 
-.footer {
-    
-    height: 100px;
-    position: fixed;
-    bottom:0;
-}
-
-button {
-   box-shadow: none!important;
-}
-
-small{
-    text-shadow: none !important;
-    color: white !important;
-    text-decoration: none !important;
-}
-
-.gifss {
-    background: url(gifss.gif) no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-}
-
-.groslien {
-    width: 600px;
-    height: 600px;
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-}
+/*-----------------------------------------------------------------------------------*/
+/*  PRELOADER
+/*-----------------------------------------------------------------------------------*/
+#preloader {position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: url(gifss.gif) no-repeat center center; z-index: 9999;}
+.status {width: 50px; height:50px; position: absolute; left: 50%; top: 45%; margin: -25px 0 0 -25px; color: #fff;}
+.gifss {background: url(gifss.gif) no-repeat center center; background-size: cover; height: 100vh;}
 
 
-
-
-#preloader {
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: url(gifss.gif) no-repeat center center;
-    z-index: 9999;
-}
-.status {
-    width: 50px; height:50px;
-    position: absolute;
-    left: 50%; top: 45%;
-    margin: -25px 0 0 -25px;
-    color: #fff;
-}
-
-
-
-.span4
-{
-    width: 40px;
-    float: left;
-    margin: 0 8px 10px 8px;
-}
-
-.phone
-{
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    margin-top: 15px;
-
-}
-.tel
-{
-    margin-bottom: 10px;
-    margin-top: 10px;
-    border: 1px solid #9e9e9e;
-    border-radius: 0px;
-}
-.num-pad
-{
-    padding-left: 15px;
-}
-
-
-.num
-{
-    border: 2px solid #9e9e9e;
-    -webkit-border-radius: 999px;
-    border-radius: 40px;
-    -moz-border-radius: 40px;
-    height: 40px;
-    color: #333;
-    cursor: pointer;
-}
-.num:hover
-{
+/*-----------------------------------------------------------------------------------*/
+/*  ENIGME CHIFFRES CACHES
+/*-----------------------------------------------------------------------------------*/
+.span4 {width: 40px; float: left; margin: 0 8px 10px 8px;}
+.phone {margin-left: auto; margin-right: auto; width: 250px; margin-top: 15px;}
+.tel {margin-bottom: 10px; margin-top: 10px; border: 1px solid #9e9e9e; border-radius: 0px;}
+.num-pad {padding-left: 15px;}
+.num {border: 2px solid #9e9e9e; -webkit-border-radius: 999px; border-radius: 40px; -moz-border-radius: 40px; height: 40px; color: #333; cursor: pointer;}
+.num:hover {
     background-color: #fff;
     color: #9e9e9e;
     transition-property: background-color .2s linear 0s;
@@ -155,57 +82,25 @@ small{
     -webkit-transition: background-color .2s linear 0s;
     -o-transition: background-color .2s linear 0s;
 }
-.txt
-{
-    font-size: 25px;
-    text-align: center;
-    font-family: 'Khand';
-    /*line-height: 30px;*/
-    color: #b0641a;
-    border:none!important;
-}
-.small
-{
-    font-size: 15px;
-}
-
-.btn
-{
+.txt {font-size: 25px; text-align: center; font-family: 'Khand'; color: #b0641a; border: none!important;}
+.small {font-size: 15px;}
+.btn {
     font-weight: bold;
     -webkit-transition: .1s ease-in background-color;
     -webkit-font-smoothing: antialiased;
     letter-spacing: 1px;
 }
-.btn:hover
-{
+.btn:hover {
     transition-property: background-color .2s linear 0s;
     -moz-transition: background-color .2s linear 0s;
     -webkit-transition: background-color .2s linear 0s;
     -o-transition: background-color .2s linear 0s;
 }
-.spanicons
-{
-    width: 72px;
-    float: left;
-    text-align: center;
-    margin-top: 40px;
-    color: #9e9e9e;
-    font-size: 30px;
-    cursor: pointer;
-}
-.spanicons:hover
-{
+.spanicons {width: 72px; float: left; text-align: center; margin-top: 40px; color: #9e9e9e; font-size: 30px; cursor: pointer;}
+.spanicons:hover {
     color: #3498db;
     transition-property: color .2s linear 0s;
     -moz-transition: color .2s linear 0s;
     -webkit-transition: color .2s linear 0s;
-    -o-transition: color .2s linear 0s;
-}
-.active
-{
-    color: #3498db;
-}
-
-
-
-
+    -o-transition: color .2s linear 0s;}
+.active {color: #3498db;}

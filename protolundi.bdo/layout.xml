@@ -1,0 +1,70 @@
+<beacondo>
+	<screens>
+		<screen>
+			<id><![CDATA[Screen 1]]></id>
+			<title><![CDATA[Screen 1]]></title>
+			<titleImage><![CDATA[]]></titleImage>
+			<icon><![CDATA[]]></icon>
+
+			<backgroundImage><![CDATA[maquettehome.jpg]]></backgroundImage>
+
+			<backgroundColor><![CDATA[ffffff00]]></backgroundColor>
+
+			<leftButton>
+				<title><![CDATA[]]></title>
+				<image><![CDATA[]]></image>
+				<link type="nothing"><![CDATA[]]></link>
+			</leftButton>
+
+			<rightButton>
+				<title><![CDATA[]]></title>
+				<image><![CDATA[]]></image>
+				<link type="pageID"><![CDATA[Page 1]]></link>
+			</rightButton>
+
+			<layout>
+				<item type="row" height="75">
+					<backgroundImage><![CDATA[]]></backgroundImage>
+					<backgroundColor><![CDATA[00000000]]></backgroundColor>
+					<thumbnail><![CDATA[]]></thumbnail>
+					<title><![CDATA[Commencer]]></title>
+					<titleFont><![CDATA[HelveticaNeue-Bold]]></titleFont>
+					<titleSize><![CDATA[40]]></titleSize>
+					<titleAlignment><![CDATA[center]]></titleAlignment>
+					<titleColor><![CDATA[feffffff]]></titleColor>
+					<subtitle><![CDATA[]]></subtitle>
+					<subtitleFont><![CDATA[HelveticaNeue-Light]]></subtitleFont>
+					<subtitleSize><![CDATA[14]]></subtitleSize>
+					<subtitleAlignment><![CDATA[left]]></subtitleAlignment>
+					<subtitleColor><![CDATA[000000ff]]></subtitleColor>
+					<useDefaultFonts><![CDATA[0]]></useDefaultFonts>
+					<link type="pageID"><![CDATA[Page 1]]></link>
+					<showsArrow>1</showsArrow>
+				</item>
+			</layout>
+		</screen>
+	</screens>
+
+	<beacons>
+		<beacon>
+			<uuid><![CDATA[9A769786-C1CD-4C44-B452-B6C2B08517EE]]></uuid>
+			<majorValue>1</majorValue>
+			<minorValue>8</minorValue>
+			<rangeLimit>1</rangeLimit>
+			<link type="pageID"><![CDATA[Page 2]]></link>
+			<prompt><![CDATA[Enigme 1]]></prompt>
+			<sound><![CDATA[]]></sound>
+			<frequency>always</frequency>
+		</beacon>
+		<beacon>
+			<uuid><![CDATA[9A769786-C1CD-4C44-B452-B6C2B08517EE]]></uuid>
+			<majorValue>1</majorValue>
+			<minorValue>39</minorValue>
+			<rangeLimit>1</rangeLimit>
+			<link type="pageID"><![CDATA[Page 3]]></link>
+			<prompt><![CDATA[Enigme 2]]></prompt>
+			<sound><![CDATA[]]></sound>
+			<frequency>once</frequency>
+		</beacon>
+	</beacons>
+</beacondo>

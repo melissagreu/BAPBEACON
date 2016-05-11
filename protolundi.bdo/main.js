@@ -14,7 +14,7 @@ mhnUI = {
                 pattern.reset(), mhnUI.message()
             }, 1e3), mhnUI.page.show()
         }, function() {
-            $(".mhn-lock-title").html('<span class="mhn-lock-failure">Opps! pattern is not correct</span>'), $(".patt-holder").removeClass("patt-success"), setTimeout(function() {
+            $(".mhn-lock-title").html('<span class="mhn-lock-failure">Ce n&apos;est pas la bonne combinaison, réessaye</span>'), $(".patt-holder").removeClass("patt-success"), setTimeout(function() {
                 pattern.reset(), mhnUI.message()
             }, 2e3)
         })
