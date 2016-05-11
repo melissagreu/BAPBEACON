@@ -38,7 +38,8 @@
     text-shadow: none
 }
 .mhn-lock-wrap .mhn-lock-failure {
-    color: #f34235
+    color: #f34235;
+    font-size: 20px;
 }
 .mhn-lock {
     margin: auto;

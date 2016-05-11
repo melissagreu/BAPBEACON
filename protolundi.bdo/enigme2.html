@@ -19,6 +19,8 @@
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
     <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js'></script>
 
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -45,9 +47,7 @@
                                 Essayez de trouver le code à 4 chiffres caché sur ce tableau !
                                 </h3>
                         </div>
-                        <div class="row">
-                            <p id="reponse"></p>
-                        </div>
+
                     </div>
                 </div>
                 <div class="row">
@@ -157,13 +157,15 @@
                                     </div>
                                     <div class="span4">
                                         <div class="num">
-                                            <div class="txt">
-                                                #
+                                            <div class="txt" onclick="reset()">
+                                                <i class="fa fa-arrow-left" aria-hidden="true"></i>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="clearfix">
+
+                                <div class="row">
+                                    <p class="failure" id="reponse"></p>
                                 </div>
                                 <button onclick="myFunction()">Répondre</button>
                             </div>
@@ -228,6 +230,12 @@
                 txt = "<a href='#page32'><button class='choice' id='btnsuite'>Suite</button></a>";
             }
             document.getElementById("reponse").innerHTML = txt;
+        }
+
+        function reset(){
+            document.getElementById("telNumber").value = "";
+            n1=0;
+            n2=0;
         }
     </script>
 
