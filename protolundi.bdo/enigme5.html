@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Prototype</title>
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="patternLock.css">
+
+
+    <!--FONT-->
+    <link href='https://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js'></script>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+    <div data-role="page" id="page37">
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
+                          Bien joué, vous avez trouvé le pouce de césar, pour continuer il faut tester vos connaissances sur ce pouce.
+                        </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="quiz">
+                          <h2 class="quiz-question">Q1: Question 1 dont la réponse est a</h2>
+                          <ul data-quiz-question="1">
+                            <li class="quiz-answer" data-quiz-answer="a">a. Réponse A</li>
+                            <li class="quiz-answer" data-quiz-answer="b">b. Réponse B</li>
+                            <li class="quiz-answer" data-quiz-answer="c">c. Réponse C</li>
+                            <li class="quiz-answer" data-quiz-answer="d">d. Réponse D</li>
+                          </ul>
+                          
+                          <h2 class="quiz-question">Q2: Question 2 dont la réponse est b</h2>
+                          <ul data-quiz-question="2">
+                            <li class="quiz-answer" data-quiz-answer="a">a. Réponse A</li>
+                            <li class="quiz-answer" data-quiz-answer="b">b. Réponse B</li>
+                            <li class="quiz-answer" data-quiz-answer="c">c. Réponse C</li>
+                            <li class="quiz-answer" data-quiz-answer="d">d. Réponse D</li>
+                          </ul>
+                          
+                          <h2 class="quiz-question">Q3: Question 3 dont la réponse est c</h2>
+                          <ul data-quiz-question="3">
+                            <li class="quiz-answer" data-quiz-answer="a">a. Réponse A</li>
+                            <li class="quiz-answer" data-quiz-answer="b">b. Réponse B</li>
+                            <li class="quiz-answer" data-quiz-answer="c">c. Réponse C</li>
+                            <li class="quiz-answer" data-quiz-answer="d">d. Réponse D</li>
+                          </ul>
+                          
+                          <h2 class="quiz-question">Q4: Question 2 dont la réponse est d</h2>
+                          <ul data-quiz-question="4">
+                            <li class="quiz-answer" data-quiz-answer="a">a. Réponse A</li>
+                            <li class="quiz-answer" data-quiz-answer="b">b. Réponse B</li>
+                            <li class="quiz-answer" data-quiz-answer="c">c. Réponse C</li>
+                            <li class="quiz-answer" data-quiz-answer="d">d. Réponse D</li>
+                          </ul>
+                        </div>
+                        <div class="quiz-result"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="page40">
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
+                          J’aurais appris des choses aujourd’hui.... <br>
+                    Je nous sens observé …
+                        </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="text-center">
+                    <h3>
+                        Photo du point de vu de l'oeuvre (Icaria voit le pouce)
+                    </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="main.js"></script>
+
+    <script>
+    var Quiz = function(){
+  var self = this;
+  this.init = function(){
+    self._bindEvents();
+  }
+  
+  this.correctAnswers = [
+    { question: 1, answer: 'a' },
+    { question: 2, answer: 'b' },
+    { question: 3, answer: 'c' },
+    { question: 4, answer: 'd' }
+  ]
+  
+  this._pickAnswer = function($answer, $answers){
+    $answers.find('.quiz-answer').removeClass('active');
+    $answer.addClass('active');
+  }
+  this._calcResult = function(){
+    var numberOfCorrectAnswers = 0;
+    $('ul[data-quiz-question]').each(function(i){
+      var $this = $(this),
+          chosenAnswer = $this.find('.quiz-answer.active').data('quiz-answer'),
+          correctAnswer;
+      
+      for ( var j = 0; j < self.correctAnswers.length; j++ ) {
+        var a = self.correctAnswers[j];
+        if ( a.question == $this.data('quiz-question') ) {
+          correctAnswer = a.answer;
+        }
+      }
+      
+      if ( chosenAnswer == correctAnswer ) {
+        numberOfCorrectAnswers++;
+        
+        // highlight this as correct answer
+        $this.find('.quiz-answer.active').addClass('correct');
+      }
+      else {
+        /*$this.find('.quiz-answer[data-quiz-answer="'+correctAnswer+'"]').addClass('correct');*/
+        $this.find('.quiz-answer.active').addClass('incorrect');
+        $this.find('.quiz-answer.active').addClass('correct');
+      }
+    });
+    if ( numberOfCorrectAnswers < 2 ) {
+      return {code: 'bad', text: "On dirait que ce ne sont pas les bonnes réponses...essayez de recommencer !<small><br>Rapprochez-vous de la beacon pour recommer le quizz<small>"};
+    }
+    else if ( numberOfCorrectAnswers == 2 || numberOfCorrectAnswers == 3 ) {
+      return {code: 'mid', text: "J&#39;ai l&#39;impression que vous avez quelques réponses fausses...essayez de recommencer !<br><small>Rapprochez-vous de la beacon pour recommer le quizz<small>"};
+    }
+    else if ( numberOfCorrectAnswers > 3 ) {
+      return {code: 'good', text: "Super, vous avez répondu juste à toutes les questions ! <a href='#page40'><button class='choice' id='btnsuite'>Suite</button></a>"};
+    }
+  }
+  this._isComplete = function(){
+    var answersComplete = 0;
+    $('ul[data-quiz-question]').each(function(){
+      if ( $(this).find('.quiz-answer.active').length ) {
+        answersComplete++;
+      }
+    });
+    if ( answersComplete >= 4 ) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+  this._showResult = function(result){
+    $('.quiz-result').addClass(result.code).html(result.text);
+  }
+  this._bindEvents = function(){
+    $('.quiz-answer').on('click', function(){
+      var $this = $(this),
+          $answers = $this.closest('ul[data-quiz-question]');
+      self._pickAnswer($this, $answers);
+      if ( self._isComplete() ) {
+        
+        // scroll to answer section
+        $('html, body').animate({
+          scrollTop: $('.quiz-result').offset().top
+        });
+        
+        self._showResult( self._calcResult() );
+        $('.quiz-answer').off('click');
+        
+      }
+    });
+  }
+}
+var quiz = new Quiz();
+quiz.init();
+    </script>
+</body>
+
+</html>
