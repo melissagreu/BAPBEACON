@@ -114,6 +114,11 @@
                     </h3>
                     </div>
                 </div>
+                <div class="row">
+                  <div class="text-center">
+                     <small><i>Rendez-vous à la statue qui regarde le pouce de César.</i></small>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
@@ -178,7 +183,7 @@
       return {code: 'mid', text: "J&#39;ai l&#39;impression que vous avez quelques réponses fausses...essayez de recommencer !<br><small>Rapprochez-vous de la beacon pour recommer le quizz<small>"};
     }
     else if ( numberOfCorrectAnswers > 3 ) {
-      return {code: 'good', text: "Super, vous avez répondu juste à toutes les questions ! <a href='#page40'><button class='choice' id='btnsuite'>Suite</button></a>"};
+      return {code: 'good', text: "Super, vous avez répondu juste à toutes les questions !<br> <a href='#page40'><button class='choice' id='btnsuite'>Suite</button></a>"};
     }
   }
   this._isComplete = function(){
