@@ -79,6 +79,121 @@
 		</rightButton>
 
 			</page>
+			<page>
+				<id><![CDATA[Page 4]]></id>
+				<ean><![CDATA[]]></ean>
+				<title><![CDATA[Page 4]]></title>
+				<price><![CDATA[]]></price>
+				<titleImage><![CDATA[]]></titleImage>
+				<thumbnail><![CDATA[]]></thumbnail>
+				<thumbnailFromHeader><![CDATA[0]]></thumbnailFromHeader>
+				<content><![CDATA[]]></content>
+
+				<contentSource><![CDATA[file]]></contentSource>
+
+				<contentTemplate><![CDATA[enigme3.html]]></contentTemplate>
+
+				<header type="carousel" height="180" pagingDots="0">
+				</header>
+		<rightButton>
+			<title><![CDATA[]]></title>
+			<image><![CDATA[]]></image>
+			<link type="nothing"><![CDATA[]]></link>
+		</rightButton>
+
+			</page>
+			<page>
+				<id><![CDATA[Page 5]]></id>
+				<ean><![CDATA[]]></ean>
+				<title><![CDATA[Page 5]]></title>
+				<price><![CDATA[]]></price>
+				<titleImage><![CDATA[]]></titleImage>
+				<thumbnail><![CDATA[]]></thumbnail>
+				<thumbnailFromHeader><![CDATA[0]]></thumbnailFromHeader>
+				<content><![CDATA[]]></content>
+
+				<contentSource><![CDATA[file]]></contentSource>
+
+				<contentTemplate><![CDATA[enigme4.html]]></contentTemplate>
+
+				<header type="carousel" height="180" pagingDots="0">
+				</header>
+		<rightButton>
+			<title><![CDATA[]]></title>
+			<image><![CDATA[]]></image>
+			<link type="nothing"><![CDATA[]]></link>
+		</rightButton>
+
+			</page>
+			<page>
+				<id><![CDATA[Page 6]]></id>
+				<ean><![CDATA[]]></ean>
+				<title><![CDATA[Page 6]]></title>
+				<price><![CDATA[]]></price>
+				<titleImage><![CDATA[]]></titleImage>
+				<thumbnail><![CDATA[]]></thumbnail>
+				<thumbnailFromHeader><![CDATA[0]]></thumbnailFromHeader>
+				<content><![CDATA[]]></content>
+
+				<contentSource><![CDATA[file]]></contentSource>
+
+				<contentTemplate><![CDATA[enigme5.html]]></contentTemplate>
+
+				<header type="carousel" height="180" pagingDots="0">
+				</header>
+		<rightButton>
+			<title><![CDATA[]]></title>
+			<image><![CDATA[]]></image>
+			<link type="nothing"><![CDATA[]]></link>
+		</rightButton>
+
+			</page>
+			<page>
+				<id><![CDATA[Page 7]]></id>
+				<ean><![CDATA[]]></ean>
+				<title><![CDATA[Page 7]]></title>
+				<price><![CDATA[]]></price>
+				<titleImage><![CDATA[]]></titleImage>
+				<thumbnail><![CDATA[]]></thumbnail>
+				<thumbnailFromHeader><![CDATA[0]]></thumbnailFromHeader>
+				<content><![CDATA[]]></content>
+
+				<contentSource><![CDATA[file]]></contentSource>
+
+				<contentTemplate><![CDATA[enigme6.html]]></contentTemplate>
+
+				<header type="carousel" height="180" pagingDots="0">
+				</header>
+		<rightButton>
+			<title><![CDATA[]]></title>
+			<image><![CDATA[]]></image>
+			<link type="nothing"><![CDATA[]]></link>
+		</rightButton>
+
+			</page>
+			<page>
+				<id><![CDATA[Page 8]]></id>
+				<ean><![CDATA[]]></ean>
+				<title><![CDATA[Page 8]]></title>
+				<price><![CDATA[]]></price>
+				<titleImage><![CDATA[]]></titleImage>
+				<thumbnail><![CDATA[]]></thumbnail>
+				<thumbnailFromHeader><![CDATA[0]]></thumbnailFromHeader>
+				<content><![CDATA[]]></content>
+
+				<contentSource><![CDATA[file]]></contentSource>
+
+				<contentTemplate><![CDATA[enigme7.html]]></contentTemplate>
+
+				<header type="carousel" height="180" pagingDots="0">
+				</header>
+		<rightButton>
+			<title><![CDATA[]]></title>
+			<image><![CDATA[]]></image>
+			<link type="nothing"><![CDATA[]]></link>
+		</rightButton>
+
+			</page>
 		</pages>
 	</section>
 </beacondo>

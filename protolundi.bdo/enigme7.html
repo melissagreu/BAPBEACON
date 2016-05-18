@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Prototype</title>
+
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <link rel="stylesheet" href="style.css">
-    <script scr="script.js"></script>
+    <link rel="stylesheet" href="patternLock.css">
 
 
     <!--FONT-->
     <link href='https://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
@@ -19,7 +21,6 @@
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
     <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js'></script>
 
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -33,8 +34,9 @@
 
 <body>
 
-    <!--PAGE enigme chiffre-->
-    <div data-role="page" id="page31">
+
+
+    <div data-role="page" id="page44">
         <div data-role="main" class="ui-content">
             <div class="container">
                 <div class="row">
@@ -44,7 +46,7 @@
                         </div>
                         <div class="col-xs-10">
                             <h3>
-                                Essayez de trouver le code à 4 chiffres caché sur ce tableau !
+                                Essayez de trouver le code caché sur cette peinture !
                                 </h3>
                         </div>
 
@@ -52,7 +54,7 @@
                 </div>
                 <div class="row">
                     <div class="text-center">
-                        <img src="enigmechiffre.png" width="300px">
+                        <h3>Peinture connaissance avec chiffre cachés</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -176,9 +178,7 @@
         </div>
     </div>
 
-
-    <!--PAGE 32-->
-    <div data-role="page" id="page32">
+    <div data-role="page" id="page45">
         <div data-role="main" class="ui-content">
             <div class="container">
                 <div class="row">
@@ -187,24 +187,30 @@
                             <h3>></h3>
                         </div>
                         <div class="col-xs-10">
-                            <h3>
-                   Bravo, première oeuvre de sauvée ! 
-                   <br>
-                    Savez-vous que l’homme sur la photo était Joan Mirò, c’est le créateur de l’oeuvre. C’était un homme avec beaucoup d’humour qui est venu à Paris pour rencontrer les plus grands artistes de son temps.
-                    <br>
-                    Hem.. excusez-moi, je suis plutôt passionnée par tout ce qui touche à ces oeuvres, mais trêve de bavardages, à vous de jouer.
-    
-                    </h3>
+                          <h3>
+                          Bien joué, vous avez désactivé la dernière balise !
+                        </h3>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="text-center">
-                            FLAT DESIGN
+                </div>
+                <div class="row">
+                    <div class="footer">
+                        <div class="col-xs-6">
+                            <a href="#page46a" data-transition="slideup">
+                                <button class="choice_min">
+                                     Vous pouvez vous <br>
+                                     débrouiller seul 
+                                     <br>maintenant ?
+                                </button>
+                            </a>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="text-center">
-                             <small><i>Rendez-vous à l'oeuvre d'art représentée sur cette image</i></small>
+                        <div class="col-xs-6">
+                            <a href="#page46b" data-transition="slideup">
+                                <button class="choice_min">
+                                    Je peux encore <br>
+                                    vous être utile ?
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -212,6 +218,174 @@
         </div>
     </div>
 
+
+    <div data-role="page" id="page46a">
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                          <h3>
+                         Oui je pense, je n’ai plus que quelques dispositifs de sécurité à franchir.
+                        </h3><br><br>
+                        <i>:::: [.....] ::::</i><br>
+                        <i>:::: [.....] ::::</i><br>
+                        <i>:::: [.....] ::::</i><br>
+                        </div>
+                        <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                          <h3>
+                         J’ai réussi à m’en sortir ! 
+                         <br>
+                         Merci encore pour votre aide, je n’y serai jamais arrivée sans vous.
+                          </h3>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+               <div class="row">
+                    <div class="footer">
+                        <div class="col-xs-6">
+                            <a href="#page47a" data-transition="slideup">
+                                <button class="choice_min">
+                                     Content de vous <br>
+                                     avoir aidé,
+                                     à une <br>prochaine fois  <br>peut-être?
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#page47b" data-transition="slideup">
+                                <button class="choice_min">
+                                    Vous devez me <br>
+                                    racontez ce que <br>
+                                    vous avez vécu, <br>
+                                    peut on se voir ce soir ?
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <div data-role="page" id="page46b">
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                          <h3>
+                         Je ne pense pas, je n’ai plus que quelques dispositifs de sécurité à franchir.
+                        </h3><br><br>
+                        <i>:::: [.....] ::::</i><br>
+                        <i>:::: [.....] ::::</i><br>
+                        <i>:::: [.....] ::::</i><br>
+                        </div>
+                    </div>
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                          <h3>
+                         J’ai réussi à m’en sortir ! 
+                         <br>
+                         Merci encore pour votre aide, je n’y serai jamais arrivée sans vous.
+                          </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="footer">
+                        <div class="col-xs-6">
+                            <a href="#page47a" data-transition="slideup">
+                                <button class="choice_min">
+                                     Content de vous <br>
+                                     avoir aidé,
+                                     à une <br>prochaine fois  <br>peut-être?
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-xs-6">
+                            <a href="#page47b" data-transition="slideup">
+                                <button class="choice_min">
+                                    Vous devez me <br>
+                                    racontez ce que <br>
+                                    vous avez vécu, <br>
+                                    peut on se voir ce soir ?
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div data-role="page" id="page47a">
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                          <h3>
+                         Qui sait si nos chemins ne seront pas amenés à se recroiser un jour …
+                        </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <div data-role="page" id="page47b">
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                          <h3>
+                          Je ne pense pas que ce soit raisonnable pour votre sécurité 
+                          <br>
+                          et j’ai une affaire très importante à régler. 
+                          <br>Mais pourquoi pas plus tard …
+
+                        </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="main.js"></script>
     <script>
         $(document).ready(function () {
 
@@ -232,7 +406,7 @@
             } else if (document.getElementById("telNumber").validity.rangeUnderflow) {
                 txt = "Mauvaise réponse";
             } else {
-                txt = "<a href='#page32'><button class='choice' id='btnsuite'>Suite</button></a>";
+                txt = "<a href='#page45'><button class='choice' id='btnsuite'>Suite</button></a>";
             }
             document.getElementById("reponse").innerHTML = txt;
         }

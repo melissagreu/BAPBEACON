@@ -66,5 +66,45 @@
 			<sound><![CDATA[]]></sound>
 			<frequency>once</frequency>
 		</beacon>
+		<beacon>
+			<uuid><![CDATA[9A769786-C1CD-4C44-B452-B6C2B08517EE]]></uuid>
+			<majorValue>1</majorValue>
+			<minorValue>35</minorValue>
+			<rangeLimit>1</rangeLimit>
+			<link type="pageID"><![CDATA[Page 4]]></link>
+			<prompt><![CDATA[BEACON 35]]></prompt>
+			<sound><![CDATA[]]></sound>
+			<frequency>once</frequency>
+		</beacon>
+		<beacon>
+			<uuid><![CDATA[9A769786-C1CD-4C44-B452-B6C2B08517EE]]></uuid>
+			<majorValue>1</majorValue>
+			<minorValue>10</minorValue>
+			<rangeLimit>1</rangeLimit>
+			<link type="pageID"><![CDATA[Page 5]]></link>
+			<prompt><![CDATA[BEACON 10]]></prompt>
+			<sound><![CDATA[]]></sound>
+			<frequency>once</frequency>
+		</beacon>
+		<beacon>
+			<uuid><![CDATA[9A769786-C1CD-4C44-B452-B6C2B08517EE]]></uuid>
+			<majorValue>1</majorValue>
+			<minorValue>32</minorValue>
+			<rangeLimit>1</rangeLimit>
+			<link type="pageID"><![CDATA[Page 6]]></link>
+			<prompt><![CDATA[ENIGME 32]]></prompt>
+			<sound><![CDATA[]]></sound>
+			<frequency>once</frequency>
+		</beacon>
+		<beacon>
+			<uuid><![CDATA[E2C56DB5-DFFB-48D2-B060-D0F5A71096E0]]></uuid>
+			<majorValue>0</majorValue>
+			<minorValue>0</minorValue>
+			<rangeLimit>1</rangeLimit>
+			<link type="pageID"><![CDATA[Page 7]]></link>
+			<prompt><![CDATA[BEACON 0]]></prompt>
+			<sound><![CDATA[]]></sound>
+			<frequency>once</frequency>
+		</beacon>
 	</beacons>
 </beacondo>
