@@ -38,6 +38,13 @@
 
         <div data-role="page" id="page41">
             <div data-role="main" class="ui-content">
+
+                <!--PRELOADER-->
+                <div id="preloader">
+                    <div id="status">
+                    </div>
+                </div>
+
                 <div class="container">
                     <div class="row">
                         <div class="dialogue">
@@ -203,6 +210,16 @@
             window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
         </script>
         <script src="main.js"></script>
+
+        <script>
+            jQuery(window).load(function () {
+                // will first fade out the loading animation
+                jQuery("#status").fadeOut();
+                // will fade out the whole DIV that covers the website.
+                jQuery("#preloader").delay(1000).fadeOut("slow");
+            })
+        </script>
+
     </body>
 
     </html>

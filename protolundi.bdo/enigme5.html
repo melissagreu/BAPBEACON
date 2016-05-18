@@ -38,6 +38,14 @@
 
     <div data-role="page" id="page37">
         <div data-role="main" class="ui-content">
+
+            <!--PRELOADER-->
+            <div id="preloader">
+                <div id="status">
+                </div>
+            </div>
+
+
             <div class="container">
                 <div class="row">
                     <div class="dialogue">
@@ -53,36 +61,36 @@
                 </div>
                 <div class="row">
                     <div class="quiz">
-                          <h2 class="quiz-question">Q1: Question 1 dont la réponse est a</h2>
+                          <h2 class="quiz-question">D'où vient le premier exemplaire du pouce ?</h2>
                           <ul data-quiz-question="1">
-                            <li class="quiz-answer" data-quiz-answer="a">a. Réponse A</li>
-                            <li class="quiz-answer" data-quiz-answer="b">b. Réponse B</li>
-                            <li class="quiz-answer" data-quiz-answer="c">c. Réponse C</li>
-                            <li class="quiz-answer" data-quiz-answer="d">d. Réponse D</li>
+                            <li class="quiz-answer" data-quiz-answer="a">a. Il a été commandé pour les Jeux Olympiques de Séoul</li>
+                            <li class="quiz-answer" data-quiz-answer="b">b. Il a été réalisé à l'occasion d'une exposition sur le thème de la main</li>
+                            <li class="quiz-answer" data-quiz-answer="c">c. C'est un mémorial de la seconde guerre</li>
+                            <li class="quiz-answer" data-quiz-answer="d">d. Il a été offert à la France par le Brésil après la coupe du monde de football de 1998</li>
                           </ul>
                           
-                          <h2 class="quiz-question">Q2: Question 2 dont la réponse est b</h2>
+                          <h2 class="quiz-question">Quel pouce a servi de modèle à l'oeuvre ?</h2>
                           <ul data-quiz-question="2">
-                            <li class="quiz-answer" data-quiz-answer="a">a. Réponse A</li>
-                            <li class="quiz-answer" data-quiz-answer="b">b. Réponse B</li>
-                            <li class="quiz-answer" data-quiz-answer="c">c. Réponse C</li>
-                            <li class="quiz-answer" data-quiz-answer="d">d. Réponse D</li>
+                            <li class="quiz-answer" data-quiz-answer="a">a. Celui de Jules César</li>
+                            <li class="quiz-answer" data-quiz-answer="b">b. Celui d'un célèbre manager sportif</li>
+                            <li class="quiz-answer" data-quiz-answer="c">c. Celui du créateur de l'oeuvre : César Baldaccini</li>
+                            <li class="quiz-answer" data-quiz-answer="d">d. Celui d'Arnold Schwarzenegger</li>
                           </ul>
                           
-                          <h2 class="quiz-question">Q3: Question 3 dont la réponse est c</h2>
+                          <h2 class="quiz-question">En quelle matière est fait le pouce ?</h2>
                           <ul data-quiz-question="3">
-                            <li class="quiz-answer" data-quiz-answer="a">a. Réponse A</li>
-                            <li class="quiz-answer" data-quiz-answer="b">b. Réponse B</li>
-                            <li class="quiz-answer" data-quiz-answer="c">c. Réponse C</li>
-                            <li class="quiz-answer" data-quiz-answer="d">d. Réponse D</li>
+                            <li class="quiz-answer" data-quiz-answer="a">a. En or</li>
+                            <li class="quiz-answer" data-quiz-answer="b">b. En cuivre</li>
+                            <li class="quiz-answer" data-quiz-answer="c">c. En bois vernis</li>
+                            <li class="quiz-answer" data-quiz-answer="d">d. En bronze</li>
                           </ul>
                           
-                          <h2 class="quiz-question">Q4: Question 2 dont la réponse est d</h2>
+                          <h2 class="quiz-question">Où se situe le plus grand exemplaire du pouce au Monde ?</h2>
                           <ul data-quiz-question="4">
-                            <li class="quiz-answer" data-quiz-answer="a">a. Réponse A</li>
-                            <li class="quiz-answer" data-quiz-answer="b">b. Réponse B</li>
-                            <li class="quiz-answer" data-quiz-answer="c">c. Réponse C</li>
-                            <li class="quiz-answer" data-quiz-answer="d">d. Réponse D</li>
+                            <li class="quiz-answer" data-quiz-answer="a">a. Facile, c'est celui de la Défense !</li>
+                            <li class="quiz-answer" data-quiz-answer="b">b. Dans la ville de Djeddah en Arabie Saoudite</li>
+                            <li class="quiz-answer" data-quiz-answer="c">c. A New York aux Etats Unis</li>
+                            <li class="quiz-answer" data-quiz-answer="d">d. Dans le Périgord en France</li>
                           </ul>
                         </div>
                         <div class="quiz-result"></div>
@@ -140,10 +148,10 @@
   }
   
   this.correctAnswers = [
-    { question: 1, answer: 'a' },
-    { question: 2, answer: 'b' },
-    { question: 3, answer: 'c' },
-    { question: 4, answer: 'd' }
+    { question: 1, answer: 'b' },
+    { question: 2, answer: 'c' },
+    { question: 3, answer: 'd' },
+    { question: 4, answer: 'a' }
   ]
   
   this._pickAnswer = function($answer, $answers){
@@ -224,6 +232,15 @@
 }
 var quiz = new Quiz();
 quiz.init();
+    </script>
+
+    <script>
+        jQuery(window).load(function () {
+            // will first fade out the loading animation
+            jQuery("#status").fadeOut();
+            // will fade out the whole DIV that covers the website.
+            jQuery("#preloader").delay(1000).fadeOut("slow");
+        })
     </script>
 </body>
 
