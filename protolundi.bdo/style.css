@@ -202,3 +202,24 @@ button {box-shadow: none!important;}
   text-shadow: none;
   font-size: 18px;
 }
+
+#spider1{
+    position: absolute;
+    top:30px;
+    right: 32px;
+}
+#spider2{
+    position: absolute;
+    top:60px;
+    right: 62px;
+}
+#spider3{
+    position: absolute;
+    top:90px;
+    left: 130px;
+}
+#spider4{
+    position: absolute;
+    top:110px;
+    left: 62px;
+}

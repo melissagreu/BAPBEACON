@@ -206,7 +206,7 @@
                     </div>
                     <div class="row">
                         <div class="text-center">
-                            FLAT DESIGN
+                            <img src="flatspider.png" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="row">
@@ -238,10 +238,13 @@
                 txt = "Mauvaise réponse";
             } else if (document.getElementById("telNumber").validity.rangeUnderflow) {
                 txt = "Mauvaise réponse";
+            } else if (document.getElementById("telNumber")==txt){
+                txt = "Mauvaise réponse";
             } else {
                 txt = "<a href='#page32'><button class='choice' id='btnsuite'>Suite</button></a>";
             }
             document.getElementById("reponse").innerHTML = txt;
+
         }
 
         function reset(){
