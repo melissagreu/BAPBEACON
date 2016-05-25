@@ -46,23 +46,18 @@
 
             <img src="araignee.png" alt="" class="img-responsive">
 
-            <a href="#" onclick="myFunction()">
-                <div id="spider1">lol</div>
-            </a>
-            <a href="#" onclick="myFunction()">
-                <div id="spider2">lol</div>
-            </a>
-            <a href="#" onclick="myFunction()">
-                <div id="spider3">lol</div>
-            </a>
-            <a href="#" onclick="myFunction()">
-                <div id="spider4">lol</div>
-            </a>
-            <a href="#page34" data-transition="slideup">
-                <button class="choice" id="btnsuite">
-                    Suite
-                </button>
-            </a>
+            <div onclick="myFunction();style.display='none';" id="spider1">
+               lol
+            </div>
+            <div onclick="myFunction();style.display='none';"  id="spider2">
+                lol
+            </div>
+            <div onclick="myFunction();style.display='none'"  id="spider3">
+               lol
+            </div>
+            <div onclick="myFunction();style.display='none'"  id="spider4">
+               lol
+            </div>
         </div>
     </div>
 
@@ -103,16 +98,21 @@
     <script src="main.js"></script>
 
     <script>
-        var spider1 = false;
-        var spider2 = false;
-        var spider3 = false;
-        var spider4 = false;
-        var spider5 = false;
+        var spider = 0;
 
         function myFunction(){
 
+            
+                spider ++;
+                console.log(spider)
+                if (spider == 4){
+                    console.log('hello'); 
+                }
+
+
         }
     </script>
+   
     <script>
         jQuery(window).load(function () {
             // will first fade out the loading animation
