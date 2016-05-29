@@ -235,3 +235,11 @@ button {box-shadow: none!important;}
     text-shadow: none;
 }
 
+#demo{
+    text-shadow: none;
+    color : white;
+    font-family: 'Open Sans Condensed';
+    font-size: 20px;
+    margin : 20px ;
+}
+
