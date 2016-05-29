@@ -203,23 +203,21 @@ button {box-shadow: none!important;}
   font-size: 18px;
 }
 
-#spider1{
-    position: absolute;
-    top:30px;
-    right: 32px;
-}
-#spider2{
-    position: absolute;
-    top:60px;
-    right: 62px;
-}
-#spider3{
-    position: absolute;
-    top:90px;
-    left: 130px;
-}
-#spider4{
-    position: absolute;
-    top:110px;
-    left: 62px;
-}
+
+/*-----------------------------------------------------------------------------------*/
+/*  ARAIGNEE
+/*-----------------------------------------------------------------------------------*/
+#spider1{position: absolute;top: 17%;left:13%;}
+#spider2{position: absolute;top: 24%;left:30%;}
+#spider3{position: absolute;top: 10%;left:65%;}
+#spider4{position: absolute;top: 27%;left:66%;}
+#spider5{position: absolute;top: 12%;right:5%;}
+
+/*-----------------------------------------------------------------------------------*/
+/*  IKARIA
+/*-----------------------------------------------------------------------------------*/
+#statue1{position: absolute;bottom: 13%;left:4%;}
+#statue2{position: absolute;top: 24%;left:30%;}
+#statue3{position: absolute;top: 10%;left:65%;}
+#statue4{position: absolute;top: 27%;left:66%;}
+#statue5{position: absolute;top: 12%;right:5%;}

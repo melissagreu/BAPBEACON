@@ -67,13 +67,18 @@
                       <div class="row">
                         <div class="text-center">
                           <h3>
-                        PHOTO D'ICARIA
+                        <img src="ikaria.png" alt="" class="img-responsive">
+                        
+                        <div onclick="myFunction();style.display='none';" id="statue1">
+                            <img src="statue1.png" alt="" width="24px">
+                        </div>
+                        
                         </h3>
                         </div>
                       </div>
                     <div class="row">
                       <div class="text-center">
-                        <a href='#page42'><button class='choice' id='btnsuite'>Suite</button></a>
+                        <p id="win"></p>
                       </div>
                     </div>
                 </div>
@@ -210,6 +215,24 @@
             window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
         </script>
         <script src="main.js"></script>
+
+            <script>
+        var spider = 0;
+        var win = "<div class='dialogue'>Bravo, c'est réussi</div><a href='#page34'><button class='choice' id='btnsuite'>Suite</button></a>";
+
+        function myFunction(){
+
+            
+                spider ++;
+                console.log(spider)
+                if (spider == 5){
+                     document.getElementById("win").innerHTML = win;
+                }
+               
+
+
+        }
+    </script>
 
         <script>
             jQuery(window).load(function () {

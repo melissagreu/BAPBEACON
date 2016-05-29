@@ -32,7 +32,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 
-<body onload="init();">
+<body>
 
     <!--PUZZLE-->
     <div data-role="page" id="page33">
@@ -47,16 +47,24 @@
             <img src="araignee.png" alt="" class="img-responsive">
 
             <div onclick="myFunction();style.display='none';" id="spider1">
-               lol
+               <img src="spider.png" alt="" width="24px">
             </div>
             <div onclick="myFunction();style.display='none';"  id="spider2">
-                lol
+                <img src="spider.png" alt="" width="24px">
             </div>
             <div onclick="myFunction();style.display='none'"  id="spider3">
-               lol
+               <img src="spider.png" alt="" width="24px">
             </div>
             <div onclick="myFunction();style.display='none'"  id="spider4">
-               lol
+               <img src="spider.png" alt="" width="24px">
+            </div>
+             <div onclick="myFunction();style.display='none'"  id="spider5">
+               <img src="spider.png" alt="" width="24px">
+            </div>
+            <div class="row">
+              <div class="text-center">
+                <p id="win"></p>
+              </div>
             </div>
         </div>
     </div>
@@ -99,15 +107,17 @@
 
     <script>
         var spider = 0;
+        var win = "<div class='dialogue'>Bravo, c'est réussi</div><a href='#page34'><button class='choice' id='btnsuite'>Suite</button></a>";
 
         function myFunction(){
 
             
                 spider ++;
                 console.log(spider)
-                if (spider == 4){
-                    console.log('hello'); 
+                if (spider == 5){
+                     document.getElementById("win").innerHTML = win;
                 }
+               
 
 
         }

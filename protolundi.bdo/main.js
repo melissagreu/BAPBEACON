@@ -302,3 +302,7 @@ mhnUI = {
         enableSetPattern: !1
     }, e.PatternLock = s
 }(jQuery, window, document);
+
+
+var spanWidth = $('#text span').width();
+$('#text').animate( { width: spanWidth }, 6000 );    
