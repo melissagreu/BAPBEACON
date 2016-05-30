@@ -44,8 +44,8 @@
       <file leaf-file-name="enigme1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="36" column="94" selection-start-line="33" selection-start-column="4" selection-end-line="36" selection-end-column="94" />
+            <state relative-caret-position="175">
+              <caret line="203" column="30" selection-start-line="203" selection-start-column="30" selection-end-line="203" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -54,8 +54,8 @@
       <file leaf-file-name="enigme3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="36" column="94" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
+            <state relative-caret-position="93">
+              <caret line="104" column="92" selection-start-line="104" selection-start-column="92" selection-end-line="104" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -64,8 +64,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protolundi.bdo/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="242" column="14" selection-start-line="242" selection-start-column="14" selection-end-line="242" selection-end-column="14" />
+            <state relative-caret-position="175">
+              <caret line="240" column="20" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -74,8 +74,8 @@
       <file leaf-file-name="enigme2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="35" column="94" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
+            <state relative-caret-position="153">
+              <caret line="223" column="100" selection-start-line="223" selection-start-column="100" selection-end-line="223" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -84,8 +84,8 @@
       <file leaf-file-name="enigme4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="36" column="94" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
+            <state relative-caret-position="93">
+              <caret line="108" column="96" selection-start-line="108" selection-start-column="96" selection-end-line="108" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -94,8 +94,8 @@
       <file leaf-file-name="enigme5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="36" column="94" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
+            <state relative-caret-position="213">
+              <caret line="136" column="96" selection-start-line="136" selection-start-column="96" selection-end-line="136" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -104,8 +104,8 @@
       <file leaf-file-name="enigme6.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="36" column="98" selection-start-line="36" selection-start-column="98" selection-end-line="36" selection-end-column="98" />
+            <state relative-caret-position="288">
+              <caret line="215" column="93" selection-start-line="215" selection-start-column="93" selection-end-line="215" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -303,15 +303,15 @@
       <workItem from="1462995661740" duration="31000" />
       <workItem from="1463061404859" duration="26000" />
       <workItem from="1464181766172" duration="6884000" />
-      <workItem from="1464547055383" duration="1162000" />
+      <workItem from="1464547055383" duration="2880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41173000" />
+    <option name="totallyTimeSpent" value="42891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1280" height="728" extended-state="6" />
+    <frame x="1" y="23" width="1280" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2625202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -664,14 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protolundi.bdo/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="242" column="14" selection-start-line="242" selection-start-column="14" selection-end-line="242" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme7.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1695">
@@ -680,50 +672,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protolundi.bdo/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="240" column="20" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="36" column="94" selection-start-line="33" selection-start-column="4" selection-end-line="36" selection-end-column="94" />
+        <state relative-caret-position="175">
+          <caret line="203" column="30" selection-start-line="203" selection-start-column="30" selection-end-line="203" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="35" column="94" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
+        <state relative-caret-position="153">
+          <caret line="223" column="100" selection-start-line="223" selection-start-column="100" selection-end-line="223" selection-end-column="100" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="36" column="94" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
+        <state relative-caret-position="93">
+          <caret line="104" column="92" selection-start-line="104" selection-start-column="92" selection-end-line="104" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="36" column="94" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
+        <state relative-caret-position="93">
+          <caret line="108" column="96" selection-start-line="108" selection-start-column="96" selection-end-line="108" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="36" column="94" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
+        <state relative-caret-position="213">
+          <caret line="136" column="96" selection-start-line="136" selection-start-column="96" selection-end-line="136" selection-end-column="96" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protolundi.bdo/enigme6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="98" selection-start-line="36" selection-start-column="98" selection-end-line="36" selection-end-column="98" />
+        <state relative-caret-position="288">
+          <caret line="215" column="93" selection-start-line="215" selection-start-column="93" selection-end-line="215" selection-end-column="93" />
           <folding />
         </state>
       </provider>

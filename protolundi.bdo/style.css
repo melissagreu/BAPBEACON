@@ -229,10 +229,16 @@ button {box-shadow: none!important;}
     font-family: "Open Sans Condensed";
 }
 
-.hint > a{
-    color: #b0641a!important;
+.hint > .btnaide{
+    background-color: #b0641a!important;
+    color:white;
     text-decoration: none;
     text-shadow: none;
+    width : 60%;
+}
+
+.btnaide:hover{
+    background: red;
 }
 
 #demo{
@@ -240,6 +246,6 @@ button {box-shadow: none!important;}
     color : white;
     font-family: 'Open Sans Condensed';
     font-size: 20px;
-    margin : 20px ;
+    margin : 20px;
 }
 
