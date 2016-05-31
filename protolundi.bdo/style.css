@@ -45,7 +45,7 @@ button {box-shadow: none!important;}
     text-align: center;
     color: #b0641a!important;
     text-shadow: none!important;
-    width: 100%!important;
+    width: 80%!important;
     background-color: transparent!important;
     border:none!important;
     border-style:solid!important;
@@ -55,14 +55,16 @@ button {box-shadow: none!important;}
     font-family: 'Khand', sans-serif!important;
     font-weight: 300!important;
     font-size: 1.2em;
-    margin-right: 3%;
+    padding-left: 0px;
+    padding-right: 0px;
+
 }
 
 .choice_min {
     text-align: center;
     color: #b0641a!important;
     text-shadow: none!important;
-    width: 150px!important;
+    width: 80%!important;
     background-color: transparent!important;
     border:none!important;
     border-style:solid!important;
@@ -72,6 +74,12 @@ button {box-shadow: none!important;}
     font-family: 'Khand', sans-serif!important;
     font-weight: 300!important;
     font-size: 1em;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.reponse{
+    padding:0px !important;
 }
 
 

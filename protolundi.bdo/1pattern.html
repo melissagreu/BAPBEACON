@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Prototype</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="patternLock.css">
+
+
+    <!--FONT-->
+    <link href='https://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/jquery-ui.min.js'></script>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+    <!--HINT-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <!--PAGE 22 : GIF + PATTERN-->
+    <div data-role="page" id="page21">
+        <div data-role="main" class="ui-content">
+            <!--PRELOADER-->
+            <div id="preloader">
+                <div id="status">
+                </div>
+            </div>
+            <!--PATTERN-->
+            <div class="mhn-ui-wrap">
+                <div class="mhn-ui-page page-lock">
+                    <div class="mhn-lock-wrap">
+                        <div data-role="main" class="ui-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="dialogue">
+                                        <div class="col-xs-2">
+                                            <h3>></h3>
+                                        </div>
+                                        <div class="col-xs-10">
+                                            <h3>
+                                              Le groupe qui m’a kidnappé utilise un brouilleur
+                                                <br>
+                                                pour empêcher les communications,
+                                                <br>
+                                                j’ai besoin que vous le désactiviez, trouvez le code !
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="mhn-lock-title" data-title="Dessine ce que tu vois"></div>
+                                    <div class="mhn-lock"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mhn-ui-page page-home">
+                    <!--APRES LE DEVEROUILLAGE-->
+                    <div class="row">
+                        <div class="dialogue">
+                            <div class="col-xs-2">
+                                <h3>></h3>
+                            </div>
+                            <div class="col-xs-10">
+                                <h3>
+                                Bien joué ! <br> Nous pouvons à présent parler tranquillement.
+                                J’enquêtais sur une organisation qui projette de détruire les oeuvres de la Défense quand
+                                ses membres m’ont enlevé ! J’étais pourtant si proche de les coincer !
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="footer">
+                                <div class="text-center">
+                                    <a href="#page22" data-transition="slideup">
+                                        <button>
+                                            Suite
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--PAGE 22-->
+    <div data-role="page" id="page22">
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
+                            A présent pour les arrêter je vais avoir besoin de votre aide. Vous allez devoir trouver les différentes oeuvres menacées et désactiver la balise qui s’y trouve pour me permettre de hacker leur système et faire échouer leur plan.
+                            <br>Compris ?
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="footer">
+                            <div class="col-xs-6">
+                                <a href="#page22b" data-transition="slideup">
+                                    <button class="choice">
+                                        Pas vraiment...
+                                    </button>
+                                </a>
+                            </div>
+                            <div class="col-xs-6">
+                                <a href="#page22a" data-transition="slideup">
+                                    <button class="choice">
+                                        Oui !
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--PAGE 22a-->
+    <div data-role="page" id="page22a">
+        <div data-role="main" class="ui-content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="dialogue">
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
+                    Super ! <br> Voici ce que j’ai pu trouver sur le premier objectif,
+                    rendez vous là-bas et désactivez la balise, bonne chance.
+                    </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text-center">
+                            <img src="oeuvrezoom.jpg" width="300px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--PAGE 22b-->
+    <div data-role="page" id="page22b">
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row">
+                    <div class="dialogue">
+
+                        <div class="col-xs-2">
+                            <h3>></h3>
+                        </div>
+                        <div class="col-xs-10">
+                            <h3>
+                                Pour faire simple, localisez l’oeuvre grâce à l’indice, rendez vous sur place et résolvez l’énigme ! Voici ce que j’ai pu trouver sur le premier objectif, bonne chance.
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text-center">
+                            <img src="oeuvrezoom.jpg" width="300px">
+                        </div>
+                        <div class="hint" data-toggle="collapse" data-target="#demo">
+                            <button class="btn btn-default btnaide"> Demander de l'aide à Jayce</button>
+                        </div>
+                            <div id="demo" class="collapse">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="plugin.js"></script>
+    <script src="main.js"></script>
+    <script>
+        jQuery(window).load(function () {
+            // will first fade out the loading animation
+            jQuery("#status").fadeOut();
+            // will fade out the whole DIV that covers the website.
+            jQuery("#preloader").delay(1000).fadeOut("slow");
+        })
+    </script>
+</body>
+
+</html>

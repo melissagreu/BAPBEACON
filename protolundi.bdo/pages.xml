@@ -45,7 +45,7 @@
 
 				<contentSource><![CDATA[file]]></contentSource>
 
-				<contentTemplate><![CDATA[enigme1.html]]></contentTemplate>
+				<contentTemplate><![CDATA[1pattern.html]]></contentTemplate>
 
 				<header type="carousel" height="180" pagingDots="0">
 				</header>
@@ -68,7 +68,7 @@
 
 				<contentSource><![CDATA[file]]></contentSource>
 
-				<contentTemplate><![CDATA[enigme2.html]]></contentTemplate>
+				<contentTemplate><![CDATA[2nombre.html]]></contentTemplate>
 
 				<header type="carousel" height="180" pagingDots="0">
 				</header>
@@ -91,7 +91,7 @@
 
 				<contentSource><![CDATA[file]]></contentSource>
 
-				<contentTemplate><![CDATA[enigme3.html]]></contentTemplate>
+				<contentTemplate><![CDATA[3araignee.html]]></contentTemplate>
 
 				<header type="carousel" height="180" pagingDots="0">
 				</header>
@@ -114,7 +114,7 @@
 
 				<contentSource><![CDATA[file]]></contentSource>
 
-				<contentTemplate><![CDATA[enigme4.html]]></contentTemplate>
+				<contentTemplate><![CDATA[4pilier.html]]></contentTemplate>
 
 				<header type="carousel" height="180" pagingDots="0">
 				</header>
@@ -137,7 +137,7 @@
 
 				<contentSource><![CDATA[file]]></contentSource>
 
-				<contentTemplate><![CDATA[enigme5.html]]></contentTemplate>
+				<contentTemplate><![CDATA[5quiz.html]]></contentTemplate>
 
 				<header type="carousel" height="180" pagingDots="0">
 				</header>
@@ -160,7 +160,7 @@
 
 				<contentSource><![CDATA[file]]></contentSource>
 
-				<contentTemplate><![CDATA[enigme6.html]]></contentTemplate>
+				<contentTemplate><![CDATA[6icaria.html]]></contentTemplate>
 
 				<header type="carousel" height="180" pagingDots="0">
 				</header>
@@ -183,7 +183,7 @@
 
 				<contentSource><![CDATA[file]]></contentSource>
 
-				<contentTemplate><![CDATA[enigme7.html]]></contentTemplate>
+				<contentTemplate><![CDATA[7fin.html]]></contentTemplate>
 
 				<header type="carousel" height="180" pagingDots="0">
 				</header>

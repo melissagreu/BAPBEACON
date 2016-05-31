@@ -6,7 +6,7 @@
 			<titleImage><![CDATA[]]></titleImage>
 			<icon><![CDATA[]]></icon>
 
-			<backgroundImage><![CDATA[maquettehome.jpg]]></backgroundImage>
+			<backgroundImage><![CDATA[accueil.png]]></backgroundImage>
 
 			<backgroundColor><![CDATA[ffffff00]]></backgroundColor>
 
@@ -23,13 +23,23 @@
 			</rightButton>
 
 			<layout>
+				<item type="slideshow" height="75" pagingDots="0">
+				</item>
+				<item type="slideshow" height="200" pagingDots="0">
+					<state>
+						<content><![CDATA[logo.png]]></content>
+						<link type="nothing"><![CDATA[]]></link>
+					</state>
+				</item>
+				<item type="slideshow" height="135" pagingDots="0">
+				</item>
 				<item type="row" height="75">
 					<backgroundImage><![CDATA[]]></backgroundImage>
 					<backgroundColor><![CDATA[00000000]]></backgroundColor>
 					<thumbnail><![CDATA[]]></thumbnail>
 					<title><![CDATA[Commencer]]></title>
-					<titleFont><![CDATA[HelveticaNeue-Bold]]></titleFont>
-					<titleSize><![CDATA[40]]></titleSize>
+					<titleFont><![CDATA[Avenir-Medium]]></titleFont>
+					<titleSize><![CDATA[30]]></titleSize>
 					<titleAlignment><![CDATA[center]]></titleAlignment>
 					<titleColor><![CDATA[feffffff]]></titleColor>
 					<subtitle><![CDATA[]]></subtitle>
@@ -94,7 +104,7 @@
 			<link type="pageID"><![CDATA[Page 6]]></link>
 			<prompt><![CDATA[ENIGME 32]]></prompt>
 			<sound><![CDATA[]]></sound>
-			<frequency>once</frequency>
+			<frequency>always</frequency>
 		</beacon>
 		<beacon>
 			<uuid><![CDATA[E2C56DB5-DFFB-48D2-B060-D0F5A71096E0]]></uuid>
@@ -103,6 +113,16 @@
 			<rangeLimit>1</rangeLimit>
 			<link type="pageID"><![CDATA[Page 7]]></link>
 			<prompt><![CDATA[BEACON 0]]></prompt>
+			<sound><![CDATA[]]></sound>
+			<frequency>once</frequency>
+		</beacon>
+		<beacon>
+			<uuid><![CDATA[9A769786-C1CD-4C44-B452-B6C2B08517EE]]></uuid>
+			<majorValue>1</majorValue>
+			<minorValue>22</minorValue>
+			<rangeLimit>1</rangeLimit>
+			<link type="pageID"><![CDATA[Page 8]]></link>
+			<prompt><![CDATA[Enigme 7]]></prompt>
 			<sound><![CDATA[]]></sound>
 			<frequency>once</frequency>
 		</beacon>
