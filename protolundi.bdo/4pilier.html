@@ -69,7 +69,7 @@
                 </div>
                 <div class="row">
                     <input type="number" id="nbPiliers" class="form-control" value="" min="25" max="25" />
-                    <button onclick="myFunction()">Répondre</button>
+                    <button class="repondre" onclick="myFunction()">Répondre</button>
                     <p id="reponse"></p>
                 </div>
             </div>
@@ -131,7 +131,7 @@
             } else if (document.getElementById("nbPiliers").validity.rangeUnderflow) {
                 txt = "Vous avez dû vous tromper sur le nombre de piliers";
             } else {
-                txt = "<a href='#page36'><button class='choice' id='btnsuite'>Suite</button></a>";
+                txt = "<a href='#page36'class='suite'><img src='suite.png' width='40'></a>";
             }
             document.getElementById("reponse").innerHTML = txt;
         }

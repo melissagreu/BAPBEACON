@@ -176,13 +176,16 @@
                                     </div>
                                 </div>
 
-                                <div class="row">
-                                    <p class="failure" id="reponse"></p>
-                                </div>
-                                <button onclick="myFunction()">Répondre</button>
+                                <button class="repondre" onclick="myFunction()">Répondre</button>
+
+
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="row">
+                    <p class="failure" id="reponse"></p>
                 </div>
             </div>
         </div>
@@ -256,7 +259,7 @@
             } else if (document.getElementById("telNumber")==txt){
                 txt = "Mauvaise réponse";
             } else {
-                txt = "<a href='#page32'><button class='choice' id='btnsuite'>Suite</button></a>";
+                txt = "<a href='#page32' class='suite'><img src='suite.png' width='40'></a>";
             }
             document.getElementById("reponse").innerHTML = txt;
 

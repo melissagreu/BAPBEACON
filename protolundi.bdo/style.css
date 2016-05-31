@@ -78,10 +78,6 @@ button {box-shadow: none!important;}
     padding-right: 0px;
 }
 
-.reponse{
-    padding:0px !important;
-}
-
 
 .failure{color: #f34235; font-size: 20px; text-shadow: none;}
 
@@ -242,3 +238,24 @@ button {box-shadow: none!important;}
     margin : 20px;
 }
 
+
+.suite{
+    margin-left: 85%;
+}
+
+.repondre{
+    text-align: center;
+    color: #b0641a!important;
+    text-shadow: none!important;
+    width: 80%!important;
+    background-color: transparent!important;
+    border:none!important;
+    border-style:solid!important;
+    border-bottom: none!important;
+    border-top: none!important;
+    border-width:0.2em!important;
+    font-family: 'Khand', sans-serif!important;
+    font-weight: 300!important;
+    font-size: 1.2em;
+    margin:0 auto;
+}
