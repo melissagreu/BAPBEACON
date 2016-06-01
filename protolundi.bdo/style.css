@@ -223,7 +223,7 @@ button {box-shadow: none!important;}
     color:white;
     text-decoration: none;
     text-shadow: none;
-    width : 60%;
+    width : 90%;
 }
 
 .btnaide:hover{
@@ -242,6 +242,10 @@ button {box-shadow: none!important;}
 .suite{
     margin-left: 85%;
 }
+.suite-pattern{
+    margin-left: 50%;
+    z-index: 1;
+}
 
 .repondre{
     text-align: center;
@@ -258,4 +262,8 @@ button {box-shadow: none!important;}
     font-weight: 300!important;
     font-size: 1.2em;
     margin:0 auto;
+}
+
+.ui-mobile .ui-page {
+    min-height: 100% !important;
 }
