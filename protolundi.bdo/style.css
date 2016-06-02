@@ -291,3 +291,18 @@ button {box-shadow: none!important;}
 .ui-mobile .ui-page {
     min-height: 100% !important;
 }
+
+/*ROTATE*/
+
+.rotate > i{
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate.down > i{
+    -ms-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
