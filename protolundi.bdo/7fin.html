@@ -302,13 +302,13 @@
         function myFunction() {
             var txt = " ";
             if (document.getElementById("connaissance").validity.rangeOverflow) {
-                txt = "<div class='bad'>Mauvaise réponse</div>";
+                txt = "<div class='bad'>LA DESACTIVATION DE LA BEACON A ECHOUE</div>";
             } else if (document.getElementById("connaissance").validity.rangeUnderflow) {
-                txt = "<div class='bad'>Mauvaise réponse</div>";
+                txt = "<div class='bad'>LA DESACTIVATION DE LA BEACON A ECHOUE</div>";
             } else if (document.getElementById("connaissance")==txt){
-                txt = "<div class='bad'>Mauvaise réponse</div>";
+                txt = "<div class='bad'>LA DESACTIVATION DE LA BEACON A ECHOUE</div>";
             } else {
-                txt = "<div class='good'>Bien joué, on peut continuer<a href='#page45' class='suite'><img src='suite.png' width='40'></a></div>";
+                txt = "<div class='good'>BEACON DESACTIVEE<a href='#page45' class='suite'><img src='suite.png' width='40'></a></div>";
                 document.getElementById("repondre").style.display = "none";
             }
             document.getElementById("reponse").innerHTML = txt;

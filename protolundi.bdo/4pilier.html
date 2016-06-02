@@ -63,7 +63,7 @@
                 <div class="row">
                     <div class="text-center">
                     <h4>
-                        COMPTE LE NOMBRE DE PILIERS
+                        COMPTEZ LE NOMBRE DE PILIERS
                     </h4>
                     </div>
                 </div>
@@ -127,11 +127,11 @@
         function myFunction() {
             var txt = " ";
             if (document.getElementById("nbPiliers").validity.rangeOverflow) {
-                txt = "<div class='bad'>Vous avez dû vous tromper sur le nombre de piliers</div>";
+                txt = "<div class='bad'>LA DESACTIVATION DE LA BEACON A ECHOUE</div>";
             } else if (document.getElementById("nbPiliers").validity.rangeUnderflow) {
-                txt = "<div class='bad'>Vous avez dû vous tromper sur le nombre de piliers</div>";
+                txt = "<div class='bad'>LA DESACTIVATION DE LA BEACON A ECHOUE</div>";
             } else {
-                txt = "<div class='good'>Félicitation, vous avez réussi<a href='#page36'class='suite'><img src='suite.png' width='40'></a></div>";
+                txt = "<div class='good'>BEACON DESACTIVEE<a href='#page36'class='suite'><img src='suite.png' width='40'></a></div>";
                 document.getElementById("repondre").style.display = "none";
             }
             document.getElementById("reponse").innerHTML = txt;
