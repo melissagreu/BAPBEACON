@@ -208,13 +208,13 @@
       }
     });
     if ( numberOfCorrectAnswers < 2 ) {
-      return {code: 'bad', text: "On dirait que ce ne sont pas les bonnes réponses...essayez de recommencer !<small><br>Rapprochez-vous de la beacon pour recommer le quizz<small>"};
+      return {code: 'bad', text: "LA DESACTIVATION DE LA BEACON A ECHOUE<br>Rapprochez-vous de la beacon pour recommer le quizz<small>"};
     }
     else if ( numberOfCorrectAnswers == 2 || numberOfCorrectAnswers == 3 ) {
-      return {code: 'mid', text: "J&#39;ai l&#39;impression que vous avez quelques réponses fausses...essayez de recommencer !<br><small>Rapprochez-vous de la beacon pour recommer le quizz<small>"};
+      return {code: 'mid', text: "LA DESACTIVATION DE LA BEACON A ECHOUE<br><small>Rapprochez-vous de la beacon pour recommer le quizz<small>"};
     }
     else if ( numberOfCorrectAnswers > 3 ) {
-      return {code: 'good', text: "Vous avez trouvé les bonnes réponses, on peut continuer <br> <a href='#page40'class='suite'><img src='suite.png' width='40'></a>"};
+      return {code: 'good', text: "BEACON DESACTIVEE <a href='#page40'class='suite'><img src='suite.png' width='40'></a>"};
     }
   }
   this._isComplete = function(){
