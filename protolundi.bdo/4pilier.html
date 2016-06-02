@@ -69,7 +69,7 @@
                 </div>
                 <div class="row">
                     <input type="number" id="nbPiliers" class="form-control" value="" min="25" max="25" />
-                    <button class="repondre" onclick="myFunction()">Répondre</button>
+                    <button class="repondre" onclick="myFunction()" id="repondre">Répondre</button>
                     <p id="reponse"></p>
                 </div>
             </div>
@@ -127,11 +127,12 @@
         function myFunction() {
             var txt = " ";
             if (document.getElementById("nbPiliers").validity.rangeOverflow) {
-                txt = "Vous avez dû vous tromper sur le nombre de piliers";
+                txt = "<div class='bad'>Vous avez dû vous tromper sur le nombre de piliers</div>";
             } else if (document.getElementById("nbPiliers").validity.rangeUnderflow) {
-                txt = "Vous avez dû vous tromper sur le nombre de piliers";
+                txt = "<div class='bad'>Vous avez dû vous tromper sur le nombre de piliers</div>";
             } else {
-                txt = "<a href='#page36'class='suite'><img src='suite.png' width='40'></a>";
+                txt = "<div class='good'>Félicitation, vous avez réussi<a href='#page36'class='suite'><img src='suite.png' width='40'></a></div>";
+                document.getElementById("repondre").style.display = "none";
             }
             document.getElementById("reponse").innerHTML = txt;
         }

@@ -176,7 +176,7 @@
                                     </div>
                                 </div>
 
-                                <button class="repondre" onclick="myFunction()">Répondre</button>
+                                <button class="repondre" onclick="myFunction()" id="repondre">Répondre</button>
 
 
                             </div>
@@ -253,13 +253,14 @@
         function myFunction() {
             var txt = " ";
             if (document.getElementById("telNumber").validity.rangeOverflow) {
-                txt = "Mauvaise réponse";
+                txt = "<div class='bad'>Mauvaise réponse</div>";
             } else if (document.getElementById("telNumber").validity.rangeUnderflow) {
-                txt = "Mauvaise réponse";
+                txt = "<div class='bad'>Mauvaise réponse</div>";
             } else if (document.getElementById("telNumber")==txt){
-                txt = "Mauvaise réponse";
+                txt = "<div class='bad'>Mauvaise réponse</div>";
             } else {
-                txt = "<a href='#page32' class='suite'><img src='suite.png' width='40'></a>";
+                txt = "<div class='good'>Bravo, vous avez trouvé la bonne réponse<a href='#page32' class='suite'><img src='suite.png' width='40'></a></div>";
+                document.getElementById("repondre").style.display = "none";
             }
             document.getElementById("reponse").innerHTML = txt;
 

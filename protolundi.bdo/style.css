@@ -211,6 +211,31 @@ button {box-shadow: none!important;}
 #statue5{position: absolute;bottom: 27%;right:20%;}
 
 
+/*-----------------------------------------------------------------------------------*/
+/*  REPONSES
+/*-----------------------------------------------------------------------------------*/
+.good{
+    background: rgba(46, 204, 113,0.3);
+    border-radius: 6px;
+    font-family: 'Open Sans Condensed', sans-serif!important;
+    font-weight: 300!important;
+    color: white!important;
+    text-shadow: none;
+    font-size: 18px;
+    padding: 5%;
+}
+
+.bad{
+    background: rgba(231, 76, 60,0.3);
+    border-radius: 6px;
+    font-family: 'Open Sans Condensed', sans-serif!important;
+    font-weight: 300!important;
+    color: white!important;
+    text-shadow: none;
+    font-size: 18px;
+    padding: 5%;
+}
+
 
 .hint{
     margin-top: 10%;
