@@ -30,6 +30,12 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!--HINT-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -55,7 +61,7 @@
                         <div class="col-xs-10">
                             <h3>
                                 Essayez de trouver le code caché sur cette peinture !
-                                </h3>
+                            </h3>
                         </div>
 
                     </div>
@@ -69,6 +75,14 @@
                     <input type="number" id="connaissance" class="form-control" value="" min="061752" max="061752" />
                     <button class="repondre" onclick="myFunction()" id="repondre">Répondre</button>
                     <p id="reponse"></p>
+                </div>
+
+                <!--HINT-->
+                <div class="hint" data-toggle="collapse" data-target="#demo-enigme">
+                    <button class="btn btn-default btnaide"> Demander de l'aide à Jayce</button>
+                </div>
+                <div id="demo-enigme" class="collapse">
+                    <p>Il y a 6 chiffres de cachés sur la photographie, il faut les lire dans le sens de lecture du texte.</p>
                 </div>
 
             </div>

@@ -255,14 +255,13 @@ button {box-shadow: none!important;}
     background: red;
 }
 
-#demo{
+#demo, #demo2, #demo3, #demo-enigme{
     text-shadow: none;
-    color : white;
+    color : white !important;
     font-family: 'Open Sans Condensed';
     font-size: 20px;
     margin : 20px;
 }
-
 
 .suite{
     margin-left: 85%;
