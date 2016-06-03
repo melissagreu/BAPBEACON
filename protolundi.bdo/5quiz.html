@@ -100,6 +100,15 @@
                         </div>
                         <div class="quiz-result"></div>
                 </div>
+
+                <!--HINT-->
+                <div class="hint" data-toggle="collapse" data-target="#demo-enigme">
+                    <button class="btn btnaide rotate"> Demander de l'aide à Jayce <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                </div>
+                <div id="demo-enigme" class="collapse">
+                    <p>B*D*</p>
+                </div>
+
             </div>
         </div>
     </div>
@@ -122,9 +131,7 @@
                 </div>
                 <div class="row">
                     <div class="text-center">
-                    <h3>
-                        Photo du point de vu de l'oeuvre (Icaria voit le pouce)
-                    </h3>
+                        <img src="pdvikaria.JPG" alt="" class="img-responsive">
                     </div>
                 </div>
                 <div class="row">
@@ -133,13 +140,13 @@
                   </div>
                 </div>
 
+
+                <!--HINT-->
                 <div class="hint" data-toggle="collapse" data-target="#demo">
-                    <button class="btn btn-default btnaide"> Demander de l'aide à Jayce</button>
+                    <button class="btn btnaide rotate"> Demander de l'aide à Jayce <i class="fa fa-angle-down" aria-hidden="true"></i></button>
                 </div>
                 <div id="demo" class="collapse">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p>Cherchez l’endroit d’où a été prise la photographie.</p>
                 </div>
             </div>
         </div>
@@ -255,6 +262,12 @@ quiz.init();
             // will fade out the whole DIV that covers the website.
             jQuery("#preloader").delay(1000).fadeOut("slow");
         })
+    </script>
+
+    <script>
+        $(".rotate").click(function(){
+            $(this).toggleClass("down");
+        });
     </script>
 </body>
 

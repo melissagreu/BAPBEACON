@@ -49,31 +49,46 @@
                 </div>
             </div>
 
-            <img src="araignee.png" alt="" class="img-responsive">
+            <div class="divaraignee">
 
-            <div onclick="myFunction();style.display='none';" id="spider1">
-               <img src="spider.png" alt="" width="24px">
+                <img src="araignee.png" alt="" class="img-responsive">
+
+                <div onclick="myFunction();style.display='none';" id="spider1">
+                   <img src="spider.png" alt="" width="24px">
+                </div>
+                <div onclick="myFunction();style.display='none';"  id="spider2">
+                    <img src="spider.png" alt="" width="24px">
+                </div>
+                <div onclick="myFunction();style.display='none'"  id="spider3">
+                   <img src="spider.png" alt="" width="24px">
+                </div>
+                <div onclick="myFunction();style.display='none'"  id="spider4">
+                   <img src="spider.png" alt="" width="24px">
+                </div>
+                 <div onclick="myFunction();style.display='none'"  id="spider5">
+                   <img src="spider.png" alt="" width="24px">
+                </div>
+                <div class="row">
+                  <div class="text-center">
+                    <p id="win"></p>
+                  </div>
+                </div>
+
             </div>
-            <div onclick="myFunction();style.display='none';"  id="spider2">
-                <img src="spider.png" alt="" width="24px">
+
+            <!--HINT-->
+            <div class="hint" data-toggle="collapse" data-target="#demo-enigme">
+                <button class="btn btnaide rotate"> Demander de l'aide à Jayce <i class="fa fa-angle-down" aria-hidden="true"></i></button>
             </div>
-            <div onclick="myFunction();style.display='none'"  id="spider3">
-               <img src="spider.png" alt="" width="24px">
-            </div>
-            <div onclick="myFunction();style.display='none'"  id="spider4">
-               <img src="spider.png" alt="" width="24px">
-            </div>
-             <div onclick="myFunction();style.display='none'"  id="spider5">
-               <img src="spider.png" alt="" width="24px">
-            </div>
-            <div class="row">
-              <div class="text-center">
-                <p id="win"></p>
-              </div>
+            <div id="demo-enigme" class="collapse">
+                <p>Les araignées sont rouges et identiques</p>
             </div>
         </div>
     </div>
 
+
+
+    <!--PAGE 34-->
     <div data-role="page" id="page34">
         <div data-role="main" class="ui-content">
             <div class="container">
@@ -108,13 +123,12 @@
                 </div>
             </div>
 
+            <!--HINT-->
             <div class="hint" data-toggle="collapse" data-target="#demo">
-                <button class="btn btn-default btnaide"> Demander de l'aide à Jayce</button>
+                <button class="btn btnaide rotate"> Demander de l'aide à Jayce <i class="fa fa-angle-down" aria-hidden="true"></i></button>
             </div>
             <div id="demo" class="collapse">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Suivez le tracé rouge jusqu’à la balise collée au pilier de la seconde photographie.
             </div>
 
         </div>
@@ -152,6 +166,12 @@
             // will fade out the whole DIV that covers the website.
             jQuery("#preloader").delay(1000).fadeOut("slow");
         })
+    </script>
+
+    <script>
+        $(".rotate").click(function(){
+            $(this).toggleClass("down");
+        });
     </script>
 
 </body>

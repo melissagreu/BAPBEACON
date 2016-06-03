@@ -187,6 +187,14 @@
                 <div class="row">
                     <p class="failure" id="reponse"></p>
                 </div>
+
+                <!--HINT-->
+                <div class="hint" data-toggle="collapse" data-target="#demo-enigme">
+                    <button class="btn btnaide rotate"> Demander de l'aide à Jayce <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                </div>
+                <div id="demo-enigme" class="collapse">
+                    <p>Il y a 4 chiffres de cachés sur la photographie, leur ordre de placement se fait de gauche à droite.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -223,13 +231,12 @@
                         </div>
                     </div>
 
+                    <!--HINT-->
                     <div class="hint" data-toggle="collapse" data-target="#demo">
-                        <button class="btn btn-default btnaide"> Demander de l'aide à Jayce</button>
+                        <button class="btn btnaide rotate"> Demander de l'aide à Jayce <i class="fa fa-angle-down" aria-hidden="true"></i></button>
                     </div>
                     <div id="demo" class="collapse">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <p>Cherchez une sculpture de métal en forme d’araignée rouge proche de votre position.</p>
                     </div>
 
                 </div>
@@ -253,13 +260,13 @@
         function myFunction() {
             var txt = " ";
             if (document.getElementById("telNumber").validity.rangeOverflow) {
-                txt = "<div class='bad'>Mauvaise réponse</div>";
+                txt = "<div class='bad'>LA DESACTIVATION DE LA BEACON A ECHOUE</div>";
             } else if (document.getElementById("telNumber").validity.rangeUnderflow) {
-                txt = "<div class='bad'>Mauvaise réponse</div>";
+                txt = "<div class='bad'>LA DESACTIVATION DE LA BEACON A ECHOUE</div>";
             } else if (document.getElementById("telNumber")==txt){
-                txt = "<div class='bad'>Mauvaise réponse</div>";
+                txt = "<div class='bad'>LA DESACTIVATION DE LA BEACON A ECHOUE</div>";
             } else {
-                txt = "<div class='good'>Bravo, vous avez trouvé la bonne réponse<a href='#page32' class='suite'><img src='suite.png' width='40'></a></div>";
+                txt = "<div class='good'>BEACON DESACTIVEE<a href='#page32' class='suite'><img src='suite.png' width='40'></a></div>";
                 document.getElementById("repondre").style.display = "none";
             }
             document.getElementById("reponse").innerHTML = txt;
@@ -280,6 +287,12 @@
             // will fade out the whole DIV that covers the website.
             jQuery("#preloader").delay(1000).fadeOut("slow");
         })
+    </script>
+
+    <script>
+        $(".rotate").click(function(){
+            $(this).toggleClass("down");
+        });
     </script>
 
 </body>

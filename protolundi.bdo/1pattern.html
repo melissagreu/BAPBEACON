@@ -77,7 +77,18 @@
                             </div>
                         </div>
                     </div>
+
+                    <!--HINT-->
+                    <div class="hint" data-toggle="collapse" data-target="#demo-enigme">
+                        <button class="btn btnaide rotate"> Demander de l'aide à Jayce <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                    </div>
+                    <div id="demo-enigme" class="collapse">
+                        <p>Il y a 7 points à relier, essayez de reproduire la forme de l’arche.</p>
+                    </div>
+
                 </div>
+
+
 
                 <div class="mhn-ui-page page-home">
                     <!--APRES LE DEVEROUILLAGE-->
@@ -170,6 +181,15 @@
                         <div class="text-center">
                             <img src="oeuvrezoom.jpg" width="300px">
                         </div>
+
+                        <!--HINT-->
+                        <div class="hint" data-toggle="collapse" data-target="#demo">
+                            <button class="btn btnaide rotate"> Demander de l'aide à Jayce <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        </div>
+                        <div id="demo" class="collapse">
+                            <img src="hint1.jpg" alt="" class="img-responsive">
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -197,13 +217,13 @@
                         <div class="text-center">
                             <img src="oeuvrezoom.jpg" width="300px">
                         </div>
-                        <div class="hint" data-toggle="collapse" data-target="#demo">
-                            <button class="btn btn-default btnaide"> Demander de l'aide à Jayce</button>
+
+                        <!--HINT-->
+                        <div class="hint" data-toggle="collapse" data-target="#demo2">
+                            <button class="btn btnaide rotate"> Demander de l'aide à Jayce <i class="fa fa-angle-down" aria-hidden="true"></i></button>
                         </div>
-                            <div id="demo" class="collapse">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            <div id="demo2" class="collapse">
+                                <img src="hint1.jpg" alt="" class="img-responsive">
                             </div>
 
 
@@ -228,6 +248,12 @@
             // will fade out the whole DIV that covers the website.
             jQuery("#preloader").delay(1000).fadeOut("slow");
         })
+    </script>
+
+    <script>
+        $(".rotate").click(function(){
+            $(this).toggleClass("down");
+        });
     </script>
 </body>
 

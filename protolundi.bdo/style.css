@@ -39,7 +39,7 @@ text-shadow: none;padding-top: 30px;}
 /*  CHOIX DE REPONSES
 /*-----------------------------------------------------------------------------------*/
 .footer {height: 100px; width:100%; position: fixed; bottom:0;}
-.choice:hover {color: #fff!important;}
+.choice:hover {color: #fff!important; text-decoration: none!important;}
 button {box-shadow: none!important;}
 .choice {
     text-align: center;
@@ -57,6 +57,7 @@ button {box-shadow: none!important;}
     font-size: 1.2em;
     padding-left: 0px;
     padding-right: 0px;
+
 
 }
 
@@ -230,17 +231,17 @@ button {box-shadow: none!important;}
 }
 
 .btnaide:hover{
-    background: red;
+    text-shadow: none !important;
+    color:white !important;
 }
 
-#demo{
+#demo, #demo2, #demo3, #demo-enigme{
     text-shadow: none;
-    color : white;
+    color : white !important;
     font-family: 'Open Sans Condensed';
     font-size: 20px;
     margin : 20px;
 }
-
 
 .suite{
     margin-left: 85%;
@@ -271,7 +272,28 @@ button {box-shadow: none!important;}
     min-height: 100% !important;
 }
 
+<<<<<<< HEAD
 .tuto {
   padding-top: 6%;
   padding-right: 6%;
+=======
+/*ROTATE*/
+
+.rotate > i{
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate.down > i{
+    -ms-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+
+
+.araignee{
+    z-index:1;
+>>>>>>> 9c41465e1910291189bdf6acc17bb3fb651e72a0
 }
