@@ -7,7 +7,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
 
-
+#page0,
 #page1,#page2a,#page2b,#page3a,
 #page3b,#page4a,#page4b,#page21,
 #page22,#page22a,#page22b,#page31,
@@ -87,6 +87,9 @@ button {box-shadow: none!important;}
 #preloader {position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: url(gifss.gif) no-repeat center center; z-index: 9999;}
 .status {width: 50px; height:50px; position: absolute; left: 50%; top: 45%; margin: -25px 0 0 -25px; color: #fff;}
 .gifss {background: url(gifss.gif) no-repeat center center; background-size: cover; height: 100vh;}
+
+#glitch {position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: url(glitch.gif) no-repeat center center; z-index: 9999;}
+.anim {width: 50px; height:50px; position: absolute; left: 50%; top: 45%; margin: -25px 0 0 -25px; color: #fff;}
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -211,31 +214,6 @@ button {box-shadow: none!important;}
 #statue5{position: absolute;bottom: 27%;right:20%;}
 
 
-/*-----------------------------------------------------------------------------------*/
-/*  REPONSES
-/*-----------------------------------------------------------------------------------*/
-.good{
-    background: rgba(46, 204, 113,0.3);
-    border-radius: 6px;
-    font-family: 'Open Sans Condensed', sans-serif!important;
-    font-weight: 300!important;
-    color: white!important;
-    text-shadow: none;
-    font-size: 18px;
-    padding: 5%;
-}
-
-.bad{
-    background: rgba(231, 76, 60,0.3);
-    border-radius: 6px;
-    font-family: 'Open Sans Condensed', sans-serif!important;
-    font-weight: 300!important;
-    color: white!important;
-    text-shadow: none;
-    font-size: 18px;
-    padding: 5%;
-}
-
 
 .hint{
     margin-top: 10%;
@@ -291,4 +269,9 @@ button {box-shadow: none!important;}
 
 .ui-mobile .ui-page {
     min-height: 100% !important;
+}
+
+.tuto {
+  padding-top: 6%;
+  padding-right: 6%;
 }

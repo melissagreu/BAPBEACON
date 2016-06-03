@@ -30,10 +30,64 @@
 </head>
 
 <body>
+         <!--GLITCH-->
+          <div id="glitch">
+               <div id="anim">
+               </div>
+           </div>
+
+    <!-- PAGE 0 - TUTO -->
+    <div data-role="page" id="page0">
+        <div data-role="main" class="ui-content">
+            <div class="container">
+                <div class="row tuto  fadeIn">
+                    <div class="text-center">
+                        <img src="bluetooth.png" alt="">
+                        <h3>Cette application immersive nécessite l’utilisation du Bluetooth. </h3>
+                    </div>
+                </div>
+                <div class="row tuto">
+                    <div class="col-xs-6 text-center">
+                        <img src="phone.png" alt="">
+                    </div>
+                    <div class="col-xs-6 text-center">
+                        <img src="beacon.png" alt="" width="44">
+                    </div>
+                </div>
+                <div class="row tuto">
+                    <div class="text-center">
+                       <h3>Pour continuer le jeu, rapprochez votre mobile de la beacon pour déclencher l’interraction</h3>
+                    </div>
+                </div>
+                <div class="row tuto">
+                    <div class="text-center">
+                        <img src="position.png" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <div class="row tuto">
+                    <div class="text-center">
+                        <h3>N’oubliez pas d’activer votre position pour profiter de l’experience.</h3>
+                    </div>
+                </div>
+                <div class="row tuto">
+                    <div class="footer">
+                        <div class="text-center">
+                            <a href="#page1" data-transition="slideup"class='suite'>
+                                <img src='suite.png' width='40'>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN PAGE 0 - TUTO -->
+    
 
     <!--PAGE 1-->
     <div data-role="page" id="page1">
         <div data-role="main" class="ui-content">
+            
             <div class="container">
                 <div class="row">
                     <div class="dialogue">
@@ -57,7 +111,7 @@
                     <div class="footer">
                         <div class="col-xs-6">
                             <a href="#page2a" data-transition="slideup">
-                                <button class="choice_min">
+                                <button class="choice_min slideInLeft">
                                     Oui je vous reçois.
                                     <br>Que se passe-t-il ?
                                 </button>
@@ -273,4 +327,13 @@
     </div>
 </body>
 
+
+<script>
+        jQuery(window).load(function () {
+            // will first fade out the loading animation
+            jQuery("#anim").fadeOut();
+            // will fade out the whole DIV that covers the website.
+            jQuery("#glitch").delay(2500).fadeOut("slow");
+        })
+    </script>
 </html>
