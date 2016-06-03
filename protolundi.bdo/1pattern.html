@@ -80,7 +80,7 @@
 
                     <!--HINT-->
                     <div class="hint" data-toggle="collapse" data-target="#demo-enigme">
-                        <button class="btn btn-default btnaide"> Demander de l'aide à Jayce</button>
+                        <button class="btn btnaide rotate"> Demander de l'aide à Jayce <i class="fa fa-angle-down" aria-hidden="true"></i></button>
                     </div>
                     <div id="demo-enigme" class="collapse">
                         <p>Il y a 7 points à relier, essayez de reproduire la forme de l’arche.</p>
@@ -248,6 +248,12 @@
             // will fade out the whole DIV that covers the website.
             jQuery("#preloader").delay(1000).fadeOut("slow");
         })
+    </script>
+
+    <script>
+        $(".rotate").click(function(){
+            $(this).toggleClass("down");
+        });
     </script>
 </body>
 

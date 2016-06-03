@@ -260,13 +260,13 @@
         function myFunction() {
             var txt = " ";
             if (document.getElementById("telNumber").validity.rangeOverflow) {
-                txt = "<div class='bad'>Mauvaise réponse</div>";
+                txt = "<div class='bad'>LA DESACTIVATION DE LA BEACON A ECHOUE</div>";
             } else if (document.getElementById("telNumber").validity.rangeUnderflow) {
-                txt = "<div class='bad'>Mauvaise réponse</div>";
+                txt = "<div class='bad'>LA DESACTIVATION DE LA BEACON A ECHOUE</div>";
             } else if (document.getElementById("telNumber")==txt){
-                txt = "<div class='bad'>Mauvaise réponse</div>";
+                txt = "<div class='bad'>LA DESACTIVATION DE LA BEACON A ECHOUE</div>";
             } else {
-                txt = "<div class='good'>Bravo, vous avez trouvé la bonne réponse<a href='#page32' class='suite'><img src='suite.png' width='40'></a></div>";
+                txt = "<div class='good'>BEACON DESACTIVEE<a href='#page32' class='suite'><img src='suite.png' width='40'></a></div>";
                 document.getElementById("repondre").style.display = "none";
             }
             document.getElementById("reponse").innerHTML = txt;
@@ -287,6 +287,12 @@
             // will fade out the whole DIV that covers the website.
             jQuery("#preloader").delay(1000).fadeOut("slow");
         })
+    </script>
+
+    <script>
+        $(".rotate").click(function(){
+            $(this).toggleClass("down");
+        });
     </script>
 
 </body>
