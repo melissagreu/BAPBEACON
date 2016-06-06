@@ -208,11 +208,11 @@ button {box-shadow: none!important;}
 /*-----------------------------------------------------------------------------------*/
 /*  IKARIA
 /*-----------------------------------------------------------------------------------*/
-#statue1{position: absolute;bottom: 13%;left:3%;}
-#statue2{position: absolute;bottom: 18%;left:17%;}
-#statue3{position: absolute;bottom: 12%;left:43%;}
-#statue4{position: absolute;bottom: 8%;right:19%;}
-#statue5{position: absolute;bottom: 27%;right:20%;}
+#statue1{position: absolute;top:480px;right:23%;}
+#statue2{position: absolute;top:845px;left:43%;}
+#statue3{position: absolute;top:440px;left:23%;}
+#statue4{position: absolute;top:455px;left:43%;}
+#statue5{position: absolute;top:855px;left:23%;}
 
 
 
@@ -272,11 +272,11 @@ button {box-shadow: none!important;}
     min-height: 100% !important;
 }
 
-<<<<<<< HEAD
+
 .tuto {
   padding-top: 6%;
   padding-right: 6%;
-=======
+}
 /*ROTATE*/
 
 .rotate > i{
@@ -295,5 +295,4 @@ button {box-shadow: none!important;}
 
 .araignee{
     z-index:1;
->>>>>>> 9c41465e1910291189bdf6acc17bb3fb651e72a0
 }
