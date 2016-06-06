@@ -27,9 +27,9 @@
 				<header type="carousel" height="180" pagingDots="0">
 				</header>
 		<rightButton>
-			<title><![CDATA[beacon]]></title>
+			<title><![CDATA[]]></title>
 			<image><![CDATA[]]></image>
-			<link type="pageID"><![CDATA[Page 2]]></link>
+			<link type="nothing"><![CDATA[]]></link>
 		</rightButton>
 
 			</page>

@@ -40,6 +40,7 @@ text-shadow: none;padding-top: 30px;}
 /*-----------------------------------------------------------------------------------*/
 .footer {height: 100px; width:100%; position: fixed; bottom:0;}
 .choice:hover {color: #fff!important; text-decoration: none!important;}
+.choice_min:hover {color: #fff!important; text-decoration: none!important;}
 button {box-shadow: none!important;}
 .choice {
     text-align: center;
@@ -47,7 +48,6 @@ button {box-shadow: none!important;}
     text-shadow: none!important;
     width: 80%!important;
     background-color: transparent!important;
-    border:none!important;
     border-style:solid!important;
     border-bottom: none!important;
     border-top: none!important;
@@ -67,7 +67,6 @@ button {box-shadow: none!important;}
     text-shadow: none!important;
     width: 80%!important;
     background-color: transparent!important;
-    border:none!important;
     border-style:solid!important;
     border-bottom: none!important;
     border-top: none!important;
@@ -104,7 +103,6 @@ button {box-shadow: none!important;}
 .num:hover {
     background-color: #fff;
     color: #9e9e9e;
-    transition-property: background-color .2s linear 0s;
     -moz-transition: background-color .2s linear 0s;
     -webkit-transition: background-color .2s linear 0s;
     -o-transition: background-color .2s linear 0s;
@@ -195,15 +193,35 @@ button {box-shadow: none!important;}
   text-shadow: none;
   font-size: 18px;
 }
+.good{
+    background: rgba(46, 204, 113,0.3);
+    border-radius: 6px;
+    font-family: 'Open Sans Condensed', sans-serif!important;
+    font-weight: 300!important;
+    color: white!important;
+    text-shadow: none;
+    font-size: 18px;
+    padding:5%;
+}
 
+.bad{
+    background: rgba(231, 76, 60,0.3);
+    border-radius: 6px;
+    font-family: 'Open Sans Condensed', sans-serif!important;
+    font-weight: 300!important;
+    color: white!important;
+    text-shadow: none;
+    font-size: 18px;
+    padding:5%;
+}
 /*-----------------------------------------------------------------------------------*/
 /*  ARAIGNEE
 /*-----------------------------------------------------------------------------------*/
-#spider1{position: absolute;top: 17%;left:13%;}
-#spider2{position: absolute;top: 24%;left:30%;}
-#spider3{position: absolute;top: 10%;left:65%;}
-#spider4{position: absolute;top: 27%;left:66%;}
-#spider5{position: absolute;top: 12%;right:5%;}
+#spider1{position: absolute;top: 230px;left:13%;}
+#spider2{position: absolute;top: 260px;left:30%;}
+#spider3{position: absolute;top: 350px;left:65%;}
+#spider4{position: absolute;top: 200px;left:66%;}
+#spider5{position: absolute;top: 300px;right:5%;}
 
 /*-----------------------------------------------------------------------------------*/
 /*  IKARIA
@@ -257,7 +275,6 @@ button {box-shadow: none!important;}
     text-shadow: none!important;
     width: 80%!important;
     background-color: transparent!important;
-    border:none!important;
     border-style:solid!important;
     border-bottom: none!important;
     border-top: none!important;
@@ -274,9 +291,11 @@ button {box-shadow: none!important;}
 
 
 .tuto {
-  padding-top: 6%;
-  padding-right: 6%;
+    padding-top: 6%;
+    padding-right: 6%;
 }
+
+
 /*ROTATE*/
 
 .rotate > i{
@@ -293,6 +312,3 @@ button {box-shadow: none!important;}
 }
 
 
-.araignee{
-    z-index:1;
-}
