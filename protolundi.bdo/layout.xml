@@ -99,7 +99,7 @@
 		<beacon>
 			<uuid><![CDATA[9A769786-C1CD-4C44-B452-B6C2B08517EE]]></uuid>
 			<majorValue>1</majorValue>
-			<minorValue>32</minorValue>
+			<minorValue>27</minorValue>
 			<rangeLimit>1</rangeLimit>
 			<link type="pageID"><![CDATA[Le Pouce de César]]></link>
 			<prompt><![CDATA[ENIGME 32]]></prompt>
@@ -119,7 +119,7 @@
 		<beacon>
 			<uuid><![CDATA[9A769786-C1CD-4C44-B452-B6C2B08517EE]]></uuid>
 			<majorValue>1</majorValue>
-			<minorValue>22</minorValue>
+			<minorValue>21</minorValue>
 			<rangeLimit>1</rangeLimit>
 			<link type="pageID"><![CDATA[La Connaissance]]></link>
 			<prompt><![CDATA[Enigme 7]]></prompt>

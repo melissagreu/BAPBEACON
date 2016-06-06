@@ -39,6 +39,7 @@ text-shadow: none;padding-top: 30px;}
 /*  CHOIX DE REPONSES
 /*-----------------------------------------------------------------------------------*/
 .footer {height: 100px; width:100%; position: fixed; bottom:0;}
+.footer_min{height: 100px; width:100%;}
 .choice:hover {color: #fff!important; text-decoration: none!important;}
 .choice_min:hover {color: #fff!important; text-decoration: none!important;}
 button {box-shadow: none!important;}
@@ -204,6 +205,7 @@ button {box-shadow: none!important;}
     text-shadow: none;
     font-size: 18px;
     padding:5%;
+    margin-top:5%;
 }
 
 .bad{
@@ -228,10 +230,10 @@ button {box-shadow: none!important;}
 /*-----------------------------------------------------------------------------------*/
 /*  IKARIA
 /*-----------------------------------------------------------------------------------*/
-#statue1{position: absolute;top:510px;right:23%;}
-#statue2{position: absolute;top:845px;left:43%;}
-#statue3{position: absolute;top:480px;left:23%;}
-#statue4{position: absolute;top:485px;left:43%;}
+#statue1{position: absolute;top:525px;right:23%;}
+#statue2{position: absolute;top:833px;left:43%;}
+#statue3{position: absolute;top:495px;left:23%;}
+#statue4{position: absolute;top:500px;left:43%;}
 #statue5{position: absolute;top:825px;left:23%;}
 
 
