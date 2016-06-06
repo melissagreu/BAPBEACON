@@ -48,7 +48,7 @@
 					<subtitleAlignment><![CDATA[left]]></subtitleAlignment>
 					<subtitleColor><![CDATA[000000ff]]></subtitleColor>
 					<useDefaultFonts><![CDATA[0]]></useDefaultFonts>
-					<link type="pageID"><![CDATA[Page 1]]></link>
+					<link type="pageID"><![CDATA[Jayce]]></link>
 					<showsArrow>1</showsArrow>
 				</item>
 			</layout>
@@ -61,7 +61,7 @@
 			<majorValue>1</majorValue>
 			<minorValue>8</minorValue>
 			<rangeLimit>1</rangeLimit>
-			<link type="pageID"><![CDATA[Page 2]]></link>
+			<link type="pageID"><![CDATA[Arche]]></link>
 			<prompt><![CDATA[Enigme 1]]></prompt>
 			<sound><![CDATA[]]></sound>
 			<frequency>always</frequency>
@@ -71,7 +71,7 @@
 			<majorValue>1</majorValue>
 			<minorValue>39</minorValue>
 			<rangeLimit>1</rangeLimit>
-			<link type="pageID"><![CDATA[Page 3]]></link>
+			<link type="pageID"><![CDATA[Deux personnages fantastiques]]></link>
 			<prompt><![CDATA[Enigme 2]]></prompt>
 			<sound><![CDATA[]]></sound>
 			<frequency>once</frequency>
@@ -81,7 +81,7 @@
 			<majorValue>1</majorValue>
 			<minorValue>35</minorValue>
 			<rangeLimit>1</rangeLimit>
-			<link type="pageID"><![CDATA[Page 4]]></link>
+			<link type="pageID"><![CDATA[Araignée rouge]]></link>
 			<prompt><![CDATA[BEACON 35]]></prompt>
 			<sound><![CDATA[]]></sound>
 			<frequency>once</frequency>
@@ -91,7 +91,7 @@
 			<majorValue>1</majorValue>
 			<minorValue>10</minorValue>
 			<rangeLimit>1</rangeLimit>
-			<link type="pageID"><![CDATA[Page 5]]></link>
+			<link type="pageID"><![CDATA[Utsurohi de Miyawaki]]></link>
 			<prompt><![CDATA[BEACON 10]]></prompt>
 			<sound><![CDATA[]]></sound>
 			<frequency>once</frequency>
@@ -101,7 +101,7 @@
 			<majorValue>1</majorValue>
 			<minorValue>32</minorValue>
 			<rangeLimit>1</rangeLimit>
-			<link type="pageID"><![CDATA[Page 6]]></link>
+			<link type="pageID"><![CDATA[Le Pouce de César]]></link>
 			<prompt><![CDATA[ENIGME 32]]></prompt>
 			<sound><![CDATA[]]></sound>
 			<frequency>always</frequency>
@@ -111,7 +111,7 @@
 			<majorValue>0</majorValue>
 			<minorValue>0</minorValue>
 			<rangeLimit>1</rangeLimit>
-			<link type="pageID"><![CDATA[Page 7]]></link>
+			<link type="pageID"><![CDATA[Ikaria]]></link>
 			<prompt><![CDATA[BEACON 0]]></prompt>
 			<sound><![CDATA[]]></sound>
 			<frequency>once</frequency>
@@ -121,7 +121,7 @@
 			<majorValue>1</majorValue>
 			<minorValue>22</minorValue>
 			<rangeLimit>1</rangeLimit>
-			<link type="pageID"><![CDATA[Page 8]]></link>
+			<link type="pageID"><![CDATA[La Connaissance]]></link>
 			<prompt><![CDATA[Enigme 7]]></prompt>
 			<sound><![CDATA[]]></sound>
 			<frequency>once</frequency>

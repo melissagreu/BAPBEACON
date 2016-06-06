@@ -11,9 +11,9 @@
 
 		<pages>
 			<page>
-				<id><![CDATA[Page 1]]></id>
+				<id><![CDATA[Jayce]]></id>
 				<ean><![CDATA[]]></ean>
-				<title><![CDATA[Page 1]]></title>
+				<title><![CDATA[Jayce]]></title>
 				<price><![CDATA[]]></price>
 				<titleImage><![CDATA[]]></titleImage>
 				<thumbnail><![CDATA[]]></thumbnail>
@@ -34,9 +34,9 @@
 
 			</page>
 			<page>
-				<id><![CDATA[Page 2]]></id>
+				<id><![CDATA[Arche]]></id>
 				<ean><![CDATA[]]></ean>
-				<title><![CDATA[Page 2]]></title>
+				<title><![CDATA[]]></title>
 				<price><![CDATA[]]></price>
 				<titleImage><![CDATA[]]></titleImage>
 				<thumbnail><![CDATA[]]></thumbnail>
@@ -57,9 +57,9 @@
 
 			</page>
 			<page>
-				<id><![CDATA[Page 3]]></id>
+				<id><![CDATA[Deux personnages fantastiques]]></id>
 				<ean><![CDATA[]]></ean>
-				<title><![CDATA[Page 3]]></title>
+				<title><![CDATA[Deux personnages fantastiques]]></title>
 				<price><![CDATA[]]></price>
 				<titleImage><![CDATA[]]></titleImage>
 				<thumbnail><![CDATA[]]></thumbnail>
@@ -80,9 +80,9 @@
 
 			</page>
 			<page>
-				<id><![CDATA[Page 4]]></id>
+				<id><![CDATA[Araignée rouge]]></id>
 				<ean><![CDATA[]]></ean>
-				<title><![CDATA[Page 4]]></title>
+				<title><![CDATA[]]></title>
 				<price><![CDATA[]]></price>
 				<titleImage><![CDATA[]]></titleImage>
 				<thumbnail><![CDATA[]]></thumbnail>
@@ -103,9 +103,9 @@
 
 			</page>
 			<page>
-				<id><![CDATA[Page 5]]></id>
+				<id><![CDATA[Utsurohi de Miyawaki]]></id>
 				<ean><![CDATA[]]></ean>
-				<title><![CDATA[Page 5]]></title>
+				<title><![CDATA[Utsurohi de Miyawaki]]></title>
 				<price><![CDATA[]]></price>
 				<titleImage><![CDATA[]]></titleImage>
 				<thumbnail><![CDATA[]]></thumbnail>
@@ -126,9 +126,9 @@
 
 			</page>
 			<page>
-				<id><![CDATA[Page 6]]></id>
+				<id><![CDATA[Le Pouce de César]]></id>
 				<ean><![CDATA[]]></ean>
-				<title><![CDATA[Page 6]]></title>
+				<title><![CDATA[Le Pouce]]></title>
 				<price><![CDATA[]]></price>
 				<titleImage><![CDATA[]]></titleImage>
 				<thumbnail><![CDATA[]]></thumbnail>
@@ -149,9 +149,9 @@
 
 			</page>
 			<page>
-				<id><![CDATA[Page 7]]></id>
+				<id><![CDATA[Ikaria]]></id>
 				<ean><![CDATA[]]></ean>
-				<title><![CDATA[Page 7]]></title>
+				<title><![CDATA[Ikaria]]></title>
 				<price><![CDATA[]]></price>
 				<titleImage><![CDATA[]]></titleImage>
 				<thumbnail><![CDATA[]]></thumbnail>
@@ -172,9 +172,9 @@
 
 			</page>
 			<page>
-				<id><![CDATA[Page 8]]></id>
+				<id><![CDATA[La Connaissance]]></id>
 				<ean><![CDATA[]]></ean>
-				<title><![CDATA[Page 8]]></title>
+				<title><![CDATA[La Connaissance]]></title>
 				<price><![CDATA[]]></price>
 				<titleImage><![CDATA[]]></titleImage>
 				<thumbnail><![CDATA[]]></thumbnail>
